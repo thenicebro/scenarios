@@ -1,7 +1,7 @@
 {
     "type": "challenge",
     "title": "Submit Files",
-    "description": "",
+    "description": "Submit files using git command",
     "difficulty": "Beginner",
     "time": 20,
     "details": {

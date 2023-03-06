@@ -6,6 +6,7 @@ In this step, you will learn how to use the `git add` command to stage changes t
 
 ## Target
 
+- Go to the `~/home/myrepo` directory for operations.
 - Stage changes to a file in your repository.
 - View the status of the repository to verify that the changes have been staged.
 
