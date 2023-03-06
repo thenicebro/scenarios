@@ -1,3 +1,8 @@
 #!/bin/zsh
 
- ls ~/myrepo/myfile.txt > /dev/null 2>&1
+FILE=~/myrepo/myfile.txt
+if [ -f "$FILE" ];then
+	exit 1;
+else
+	exit 0;
+fi
