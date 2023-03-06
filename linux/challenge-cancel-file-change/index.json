@@ -15,7 +15,7 @@
                         "file": "verify1.sh",
                         "hint": "Please undo the changes you made to a file in a Git repository.",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": [
@@ -31,7 +31,7 @@
                         "file": "verify2.sh",
                         "hint": "Please remove the file `newfile.txt`",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": [
@@ -47,7 +47,7 @@
                         "file": "verify3.sh",
                         "hint": "Please undo the most recent commit and reset the current branch to the previous commit",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": [
