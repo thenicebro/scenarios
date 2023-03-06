@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-test -f myfile.txt
+ ls ~/myrepo/myfile.txt > /dev/null 2>&1
