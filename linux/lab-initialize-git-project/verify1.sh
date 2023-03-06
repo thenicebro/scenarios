@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-history | grep -v "history" | grep -iq "ls"
+ls -l
 if [ $? -eq 0 ];then
 	echo "000";
 	exit 0;
