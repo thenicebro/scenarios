@@ -1,0 +1,78 @@
+{
+    "type": "challenge",
+    "title": "Cancel File Change",
+    "description": "Undoing changes to a file useing git command",
+    "difficulty": "Beginner",
+    "time": 15,
+    "details": {
+        "steps": [
+            {
+                "title": "Undo The Changes You Made",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Check if the changes you made are undone",
+                        "file": "verify1.sh",
+                        "hint": "Please undo the changes you made to a file in a Git repository.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "git/restore"
+                ]
+            },
+            {
+                "title": "Remove A File From The Repository",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Check if the file has been removed",
+                        "file": "verify2.sh",
+                        "hint": "Please remove the file `newfile.txt`",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "git/rm"
+                ]
+            },
+            {
+                "title": "Undo The Most Recent Commit And Reset The Current Branch",
+                "text": "step3.md",
+                "verify": [
+                    {
+                        "name": "Check if the most recent commit has been undone",
+                        "file": "verify3.sh",
+                        "hint": "Please undo the most recent commit and reset the current branch to the previous commit",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "git/reset",
+					"git/log"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "",
+                    "target": "/tmp"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
