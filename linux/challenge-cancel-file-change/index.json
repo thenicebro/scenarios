@@ -1,7 +1,7 @@
 {
     "type": "challenge",
     "title": "Cancel File Change",
-    "description": "Undoing changes to a file useing git command",
+    "description": "Using several important Git commands for managing changes and the commit history of a Git repository",
     "difficulty": "Beginner",
     "time": 15,
     "details": {
