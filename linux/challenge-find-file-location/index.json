@@ -1,7 +1,7 @@
 {
     "type": "challenge",
     "title": "Find File Location",
-    "description": "Find file location on linux platform",
+    "description": "Find files using four different commands on a Linux system",
     "difficulty": "Beginner",
     "time": 20,
     "details": {
