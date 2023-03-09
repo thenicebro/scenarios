@@ -1,7 +1,7 @@
 {
     "type": "challenge",
     "title": "Submit Files",
-    "description": "Submit files using git command",
+    "description": "This challenge will test your knowledge of basic Git commands",
     "difficulty": "Beginner",
     "time": 20,
     "details": {
