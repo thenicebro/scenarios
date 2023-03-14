@@ -1,4 +1,4 @@
-# Committing Changes To The Repository
+# Committing Changes to the Repository
 
 ## Introduction
 

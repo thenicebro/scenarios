@@ -1,4 +1,4 @@
-# Checking The Status Of Your Repository
+# Checking the Status of Your Repository
 
 ## Introduction
 

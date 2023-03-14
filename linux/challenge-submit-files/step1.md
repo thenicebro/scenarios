@@ -1,4 +1,4 @@
-# Adding Changes To The Staging Area
+# Adding Changes to the Staging Area
 
 ## Introduction
 
