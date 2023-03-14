@@ -1,4 +1,4 @@
-# Using The Whereis Command
+# Using the Whereis Command
 
 ## Introduction
 

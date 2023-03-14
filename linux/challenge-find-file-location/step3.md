@@ -1,4 +1,4 @@
-# Using The Which Command
+# Using the Which Command
 
 ## Introduction
 
