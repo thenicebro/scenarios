@@ -1,4 +1,4 @@
-# Undo The Most Recent Commit And Reset The Current Branch
+# Undo the Recent Commit and  Branch
 
 ## Introduction
 

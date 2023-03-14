@@ -1,4 +1,4 @@
-# Undo The Changes You Made
+# Undo the Changes You Made
 
 ## Introduction
 

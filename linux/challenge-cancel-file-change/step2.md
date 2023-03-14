@@ -1,4 +1,4 @@
-# Remove A File From The Repository
+# Remove a File From the Repository
 
 ## Introduction
 
