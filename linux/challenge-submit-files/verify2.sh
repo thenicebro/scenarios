@@ -1,4 +1,4 @@
 #!/bin/zsh
 
 cd ~/myrepo
-git status | grep -iqE "^nothing +to +commit"
+git status | grep -iqE "^nothing\s+to\s+commit"
