@@ -1,4 +1,4 @@
-# Using Git Clone To Create A Copy Of An Existing Repository
+# Using Git Clone to Create a Copy of an Existing Repository
 
 If you want to create a copy of an existing Git repository, you can use the `git clone` command. Here's how to do it:
 

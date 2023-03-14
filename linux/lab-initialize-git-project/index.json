@@ -7,13 +7,13 @@
     "details": {
         "steps": [
             {
-                "title": "Git necessary files directory",
+                "title": "Using git init to create a new repository",
                 "text": "step1.md",
                 "verify": [
                     {
-                        "name": "Check if you have finished reading the document",
+                        "name": "Check if the git init command is used correctly",
                         "file": "verify1.sh",
-                        "hint": "Please use ls command to view these files",
+                        "hint": "Please follow the documentation for the relevant operation",
                         "timeout": 0,
                         "showstderr": false
                     }
@@ -23,13 +23,13 @@
                 ]
             },
             {
-                "title": "Using git init to create a new repository",
+                "title": "Git necessary files directory",
                 "text": "step2.md",
                 "verify": [
                     {
-                        "name": "Check if the git init command is used correctly",
+                        "name": "Check if you have finished reading the document",
                         "file": "verify2.sh",
-                        "hint": "Please follow the documentation for the relevant operation",
+                        "hint": "Please use ls command to view these files",
                         "timeout": 0,
                         "showstderr": false
                     }

@@ -1,4 +1,4 @@
-# Using Git Init To Create A New Repository
+# Using Git Init to Create a New Repository
 
 > Tips: before we get started, make sure you have Git installed on your system. If you haven't already installed it, you can download and install it from the [official website](https://git-scm.com/downloads).
 

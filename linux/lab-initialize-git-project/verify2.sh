@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-ls -l
+cat ~/.zsh_history | grep -v "cat" | grep -iqE ";ls."
 
