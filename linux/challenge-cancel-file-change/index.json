@@ -39,7 +39,7 @@
                 ]
             },
             {
-                "title": "Undo The Most Recent Commit And Reset The Current Branch",
+                "title": "Undo  And  Reset",
                 "text": "step3.md",
                 "verify": [
                     {
