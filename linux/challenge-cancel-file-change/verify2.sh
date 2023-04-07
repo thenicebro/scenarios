@@ -1,8 +1,17 @@
 #!/bin/zsh
 
-FILE=~/myrepo/myfile.txt
+FILE=~/myrepo/newfile.txt
 if [ -f "$FILE" ];then
-	exit 1;
+	result=1;
 else
-	exit 0;
+	result=0;
+fi
+
+cat ~/.zsh_history | grep -qE ";git\s+rm"
+result1=$?
+
+if [ $result -eq 0 ] && [ $result1 -eq 0 ];then
+	exit 0
+else
+	exit 1
 fi

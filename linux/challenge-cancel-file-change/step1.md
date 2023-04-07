@@ -12,7 +12,7 @@ Your goal is to use the `git restore` command to undo changes you made to a file
 
 Here's an example of what you should be able to accomplish by the end of this challenge:
 
-1. Make changes to a file in the working directory.
+1. Make changes to the file `myfile.txt` in the working directory.
 
    ```bash
    On branch master
@@ -22,7 +22,7 @@ Here's an example of what you should be able to accomplish by the end of this ch
            modified:   myfile.txt
    ```
 
-2. Use the restore command to undo the changes and restore the file to its previous state.
+2. Use the restore command to undo the changes and restore the file `myfile.txt` to its previous state.
 
    ```bash
    On branch master
