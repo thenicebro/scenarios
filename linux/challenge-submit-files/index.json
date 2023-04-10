@@ -20,7 +20,8 @@
                 ],
                 "skills": [
                     "git/add"
-                ]
+                ],
+				"solutions": ["step1-solution.md"]
             },
             {
                 "title": "Committing changes to the repository",
@@ -36,7 +37,8 @@
                 ],
                 "skills": [
                     "git/commit"
-                ]
+                ],
+				"solutions": ["step2-solution.md"]
             },
             {
                 "title": "Checking the status of your repository",
@@ -52,7 +54,8 @@
                 ],
                 "skills": [
                     "git/status"
-                ]
+                ],
+				"solutions": ["step3-solution.md"]
             },
             {
                 "title": "Viewing differences between two states",
@@ -68,7 +71,8 @@
                 ],
                 "skills": [
                     "git/diff"
-                ]
+                ],
+				"solutions": ["step4-solution.md"]
             }
         ],
         "intro": {
