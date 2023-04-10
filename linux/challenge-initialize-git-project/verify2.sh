@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-fileCount=`find ~/myrepo/ -name "*.git" | wc -l`
-if [ $fileCount -gt 1 ];then
+FILE=~/Code/gitignore
+if [ -d "$FILE" ];then
 	exit 0;
 else
 	exit 1;

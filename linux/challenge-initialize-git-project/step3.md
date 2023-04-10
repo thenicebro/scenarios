@@ -6,16 +6,16 @@ Sometimes, when you clone a Git repository, you may not need to download all of 
 
 ## Target
 
-- To clone an existing repository with limited history using `git clone` and the `--depth` option.
+- To clone an existing `https://github.com/github/gitignore` repository with limited history using `git clone` and the `--depth` option.
 
 ## Result Example
 
-To clone an existing repository with limited history, navigate to the directory where you want to clone the repository .
+To clone an existing repository with limited history, navigate to the `~/project` directory where you want to clone the repository .
 
 This will create a new directory containing the repository's files and subdirectories with limited history.
 
 ```bash
-Cloning into 'repository-url'...
+Cloning into 'gitignore'...
 remote: Enumerating objects: 8094, done.
 remote: Counting objects: 100% (171/171), done.
 remote: Compressing objects: 100% (118/118), done.
