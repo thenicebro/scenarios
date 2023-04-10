@@ -20,7 +20,8 @@
                 ],
                 "skills": [
                     "git/restore"
-                ]
+                ],
+				"solutions": ["step1-solution.md"]
             },
             {
                 "title": "Remove A File From The Repository",
@@ -36,7 +37,8 @@
                 ],
                 "skills": [
                     "git/rm"
-                ]
+                ],
+				"solutions": ["step2-solution.md"]
             },
             {
                 "title": "Undo  And  Reset",
@@ -53,7 +55,8 @@
                 "skills": [
                     "git/reset",
 					"git/log"
-                ]
+                ],
+				"solutions": ["step3-solution.md"]
             }
         ],
         "intro": {
