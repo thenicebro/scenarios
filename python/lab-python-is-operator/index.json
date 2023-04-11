@@ -15,21 +15,21 @@
                         "file": "verify1-0.sh",
                         "hint": "Please open the Python interpreter in the terminal.",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     },
                     {
                         "name": "Check if the step is completed.",
                         "file": "verify1-1.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
-                        "showstderr": false
-                    }
+                        "showstderr": false,
+                    },
                 ],
                 "skills": [
                     "python/variables",
                     "python/python_interpreter",
-                    "python/is"
-                ]
+                    "python/is",
+                ],
             },
             {
                 "title": "Immutable vs Mutable Objects",
@@ -40,13 +40,10 @@
                         "file": "verify2.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     }
                 ],
-                "skills": [
-                    "python/variables",
-                    "python/is"
-                ]
+                "skills": ["python/variables", "python/is"],
             },
             {
                 "title": "Function Parameters",
@@ -57,14 +54,10 @@
                         "file": "verify3.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     }
                 ],
-                "skills": [
-                    "python/is",
-                    "python/variables",
-                    "python/function_basic"
-                ]
+                "skills": ["python/is", "python/variables", "python/function_basic"],
             },
             {
                 "title": "Advanced Usage",
@@ -75,26 +68,19 @@
                         "file": "verify4.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     }
                 ],
                 "skills": [
                     "python/is",
                     "python/variables",
                     "python/function_basic",
-                    "python/class"
-                ]
-            }
+                    "python/class",
+                ],
+            },
         ],
-        "intro": {
-            "text": "intro.md",
-            "background": "setup.sh"
-        },
-        "finish": {
-            "text": "finish.md"
-        }
+        "intro": {"text": "intro.md", "background": "setup.sh"},
+        "finish": {"text": "finish.md"},
     },
-    "backend": {
-        "imageid": "vnc-ubuntu:2204"
-    }
+    "backend": {"imageid": "vnc-ubuntu:2204"},
 }
