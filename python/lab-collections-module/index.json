@@ -32,11 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/collections",
-          "python/print",
-          "python/tuple"
-        ]
+        "skills": ["python/collections", "python/print", "python/tuple"]
       },
       {
         "title": "Counter",
@@ -57,11 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/collections",
-          "python/print",
-          "python/dict"
-        ]
+        "skills": ["python/collections", "python/print", "python/dict"]
       },
       {
         "title": "OrderedDict",
@@ -82,11 +74,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/collections",
-          "python/print",
-          "python/for_loop"
-        ]
+        "skills": ["python/collections", "python/print", "python/for_loop"]
       },
       {
         "title": "DefaultDict",
@@ -161,11 +149,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/collections",
-          "python/tuple",
-          "python/print"
-        ]
+        "skills": ["python/collections", "python/tuple", "python/print"]
       }
     ],
     "intro": {
