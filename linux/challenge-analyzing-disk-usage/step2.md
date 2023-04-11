@@ -6,12 +6,12 @@ The `du` command shows the amount of disk space used by files and directories.
 
 ### Target
 
-Analyze the disk usage for a specific directory `~/var/log`.
+Analyze the disk usage for a specific directory `/tmp`.
 
 ### Result Example
 
 ```bash
-8.1M    /var/log
+4.0K    /tmp
 ```
 
 ### Requirement

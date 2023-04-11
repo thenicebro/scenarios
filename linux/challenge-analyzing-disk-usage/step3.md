@@ -6,7 +6,7 @@ The `du` command can also be used to find the largest file or directory on a sys
 
 ### Target
 
-Find the largest file in the `~/myrepo` directory and move it to `~/mnt` directory.
+Find the largest file in the `~/myrepo` directory and move it to `/tmp` directory.
 
 ### Result Example
 
@@ -23,4 +23,4 @@ Find the largest file in the `~/myrepo` directory and move it to `~/mnt` directo
 - use the `du` command to find the largest file in the `~/myrepo` directory.
 - use the `sort` and `head` commands to organizing the output.
 
-- use the `mv` command to move the file to the `~/mnt` directory.
+- use the `mv` command to move the file to the `/tmp` directory.
