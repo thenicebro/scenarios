@@ -19,7 +19,7 @@
                     }
                 ],
                 "skills": [
-                    "linux/df"
+                    "linux/du"
                 ],
                 "solutions": [
                     "step1-solution.md"
