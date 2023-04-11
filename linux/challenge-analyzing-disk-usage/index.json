@@ -18,7 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/df", "linux/ls"],
+        "skills": ["linux/df"],
         "solutions": ["step1-solution.md"]
       },
       {
@@ -48,7 +48,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/du", "linux/sort", "linux/head", "linux/mv"],
+        "skills": ["linux/du", "linux/head", "linux/mv"],
         "solutions": ["step3-solution.md"]
       }
     ],
