@@ -27,7 +27,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": ["solution.md","find_expressions.py"]
+        "solutions": ["solution.md", "find_expressions.py"]
       }
     ],
     "intro": {
