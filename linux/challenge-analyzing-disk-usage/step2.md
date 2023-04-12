@@ -13,7 +13,7 @@ Analyze the disk usage for a specific directory `/tmp`.
 The following example is only the effect of local operation, and has nothing to do with the actual effect.
 
 ```bash
-4.0K    /tmp
+4.0K /tmp
 ```
 
 ### Requirement

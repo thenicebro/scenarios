@@ -13,10 +13,10 @@ View disk usage statistics for all mounted file-systems.
 The following example is only the effect of local operation, and has nothing to do with the actual effect.
 
 ```bash
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda1        20G   15G  4.2G  79% /
-tmpfs           1.5G   12K  1.5G   1% /dev/shm
-/dev/sdb1        50G   35G   15G  71% /mnt/backup
+Filesystem Size Used Avail Use% Mounted on
+/dev/sda1 20G 15G 4.2G 79% /
+tmpfs 1.5G 12K 1.5G 1% /dev/shm
+/dev/sdb1 50G 35G 15G 71% /mnt/backup
 ```
 
 ### Requirement

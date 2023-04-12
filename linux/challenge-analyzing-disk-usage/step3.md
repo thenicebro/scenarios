@@ -13,10 +13,10 @@ Find the largest file in the `~/myrepo` directory and move it to `/tmp` director
 The following example is only the effect of local operation, and has nothing to do with the actual effect.
 
 ```bash
-46G     ~/myrepo
-37G     ~/myrepo/largest_file.txt
-5.6G    ~/myrepo/a.txt
-1.5G    ~/myrepo/b.txt
+46G ~/myrepo
+37G ~/myrepo/largest_file.txt
+5.6G ~/myrepo/a.txt
+1.5G ~/myrepo/b.txt
 ...
 ```
 
