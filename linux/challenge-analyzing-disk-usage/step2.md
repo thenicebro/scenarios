@@ -10,11 +10,13 @@ Analyze the disk usage for a specific directory `/tmp`.
 
 ### Result Example
 
+The following example is only the effect of local operation, and has nothing to do with the actual effect.
+
 ```bash
 4.0K    /tmp
 ```
 
 ### Requirement
 
-- Use the `-s` option to show only the total size of the specified directory.
-- Use the `-h` option to display sizes in a human-readable format.
+- Show only the total size of the specified directory.
+- Display sizes in a human-readable format.

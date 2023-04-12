@@ -10,17 +10,17 @@ Find the largest file in the `~/myrepo` directory and move it to `/tmp` director
 
 ### Result Example
 
+The following example is only the effect of local operation, and has nothing to do with the actual effect.
+
 ```bash
-46G     /myrepo
-37G     /home/user1
-5.6G    /home/user2
-1.5G    /home/user3
+46G     ~/myrepo
+37G     ~/myrepo/largest_file.txt
+5.6G    ~/myrepo/a.txt
+1.5G    ~/myrepo/b.txt
 ...
 ```
 
 ### Requirement
 
-- use the `du` command to find the largest file in the `~/myrepo` directory.
-- use the `sort` and `head` commands to organizing the output.
-
-- use the `mv` command to move the file to the `/tmp` directory.
+- Find the largest file in the `~/myrepo` directory.
+- Move the file to the `/tmp` directory.
