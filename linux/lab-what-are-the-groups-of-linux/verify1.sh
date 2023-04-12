@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 cat ~/.zsh_history | grep -i "groups"
-result1=$?
+result=$?
 
 if [ $result -eq 0 ];then
 	exit 0

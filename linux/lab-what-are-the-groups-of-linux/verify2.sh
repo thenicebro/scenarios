@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 cat /etc/group | grep -i "devs"
-result1=$?
+result=$?
 
 if [ $result -eq 0 ];then
 	exit 0

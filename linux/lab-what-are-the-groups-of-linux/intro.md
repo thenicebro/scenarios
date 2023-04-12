@@ -4,9 +4,9 @@ Welcome to the lab on what are the groups of Linux. Linux groups are an essentia
 
 ## Prerequisites
 
-Before starting this lab, students should have a basic understanding of the Linux command line and how to use the `adduser` and `usermod` commands to create and modify user accounts.
+Before starting this lab, you should have a basic understanding of the Linux command line and how to use the `adduser` and `usermod` commands to create and modify user accounts.
 
-For the purpose of this lab, we will use the following specific username and group name:
+For the purpose of this lab, we will use the following specific user name and group name:
 
-- Username: `johndoe`
+- User name: `johndoe`
 - Group name: `devs`
