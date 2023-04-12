@@ -16,9 +16,9 @@ This will create a new directory named `.git` in the current directory. This dir
 
 ```bash
 total 12
-drwxr-xr-x  3 labex labex 4096 Apr  9 21:44 ./
-drwxr-xr-x 24 labex labex 4096 Apr  9 21:43 ../
-drwxr-xr-x  7 labex labex 4096 Apr  9 21:44 .git/
+drwxr-xr-x 3 labex labex 4096 Apr 9 21:44 ./
+drwxr-xr-x 24 labex labex 4096 Apr 9 21:43 ../
+drwxr-xr-x 7 labex labex 4096 Apr 9 21:44 .git/
 ```
 
 ## Requirements
