@@ -5,7 +5,7 @@ The `groups` command displays the groups that a user belongs to. This command ca
 To use the `groups` command, simply type the following into the terminal:
 
 ```bash
-$ groups johndoe
+groups johndoe
 ```
 
 This should display the groups that the `johndoe` user belongs to.

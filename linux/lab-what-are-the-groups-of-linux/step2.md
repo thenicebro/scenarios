@@ -5,7 +5,7 @@ The `groupadd` command is used to create a new group on a Linux system. This com
 To create a new group, type the following into the terminal:
 
 ```bash
-$ sudo groupadd devs
+sudo groupadd devs
 ```
 
 This will create a new group named `devs`.

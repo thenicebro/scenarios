@@ -1,6 +1,6 @@
-# What Are the Groups of Linux
+# Groups of Linux
 
-Welcome to the lab on what are the groups of Linux. Linux groups are an essential feature for managing user access and permissions. In this lab, you will learn how to create and delete groups, as well as manage group membership using groupadd and groupdel commands.
+Welcome to the lab on groups of Linux. Linux groups are an essential feature for managing user access and permissions. In this lab, you will learn how to create and delete groups, as well as manage group membership using groupadd and groupdel commands.
 
 ## Prerequisites
 
