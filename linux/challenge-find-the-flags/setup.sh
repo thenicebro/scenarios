@@ -4,9 +4,8 @@ mkdir resolve
 
 echo "Congratulations! You found the first flag. The next flag is in the home directory under the root user." >> .flag1.txt
 
-sudo useradd test -p 123
-sudo -i
 echo "Great job! You found the second flag. The next flag is located in a zip file in the current directory. Tips: You need to log out of root user" >> flag2.txt
+sudo mv flag2.txt /root
 exit
 
 echo "Well done! You found the third flag. The next flag is located in a section of a large file largefile.txt in the /tmp directory. Tips: The last flag file has a filename with the word flag" >> flag3.txt
