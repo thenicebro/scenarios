@@ -9,6 +9,7 @@ sudo mv flag2.txt /root
 
 echo "Well done! You found the third flag. The next flag is located in a section of a large file largefile.txt in the /tmp directory. Tips: The last flag file has a filename with the word flag" >> flag3.txt
 zip flag3.zip flag3.txt
+rm flag3.txt
 
 echo "this is a hint..." >> /tmp/largefile.txt
 echo "this is a hint..." >> /tmp/largefile.txt
