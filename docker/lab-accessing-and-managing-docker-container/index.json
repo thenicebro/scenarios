@@ -25,10 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/run",
-          "docker/logs"
-        ]
+        "skills": ["docker/run", "docker/logs"]
       },
       {
         "title": "Stopping a Container",
@@ -42,10 +39,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/stop",
-          "docker/ps"
-        ]
+        "skills": ["docker/stop", "docker/ps"]
       },
       {
         "title": "Executing Commands in a Container",
@@ -59,11 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/run",
-          "docker/exec",
-          "docker/stop"
-        ]
+        "skills": ["docker/run", "docker/exec", "docker/stop"]
       },
       {
         "title": "Removing a Container",
@@ -77,10 +67,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/rm",
-          "docker/ps"
-        ]
+        "skills": ["docker/rm", "docker/ps"]
       }
     ],
     "intro": {
