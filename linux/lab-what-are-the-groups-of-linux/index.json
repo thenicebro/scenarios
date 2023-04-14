@@ -21,7 +21,7 @@
         "skills": ["linux/groups"]
       },
       {
-        "title": "Creating Groups with groupadd",
+        "title": "Creating Groups",
         "text": "step2.md",
         "verify": [
           {
@@ -35,7 +35,7 @@
         "skills": ["linux/groupadd"]
       },
       {
-        "title": "Deleting Groups with groupdel",
+        "title": "Deleting Groups",
         "text": "step3.md",
         "verify": [
           {

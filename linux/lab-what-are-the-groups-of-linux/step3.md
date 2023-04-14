@@ -1,4 +1,4 @@
-## Deleting Groups with groupdel
+## Deleting Groups
 
 The `groupdel` command is used to delete a group from a Linux system. Like `groupadd`, this command requires root privileges.
 

@@ -1,4 +1,4 @@
-## Creating Groups with groupadd
+## Creating Groups
 
 The `groupadd` command is used to create a new group on a Linux system. This command requires root privileges, so you will need to use `sudo` to run it.
 
