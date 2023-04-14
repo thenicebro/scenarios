@@ -16,7 +16,7 @@ echo "this is a hint..." >> /tmp/largefile.txt
 echo "this is a hint..." >> /tmp/largefile.txt
 echo "this is a hint..." >> /tmp/largefile.txt
 echo "this is a hint..." >> /tmp/largefile.txt
-echo "the last flag file is flag4.txt" >> /tmp/largefile.txt
+echo "the last flag file is flag4.txt in your home directory" >> /tmp/largefile.txt
 echo "this is a hint..." >> /tmp/largefile.txt
 
 echo "Excellent work! You found the fourth flag." >> flag4.txt
