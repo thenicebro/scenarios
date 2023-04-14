@@ -67,7 +67,7 @@
         "solutions": ["step4-solution.md"]
       },
       {
-        "title": "Using Cat and Tail commands",
+        "title": "Using Cat and Tail Commands",
         "text": "step5.md",
         "verify": [
           {
