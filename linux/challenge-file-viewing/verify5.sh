@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [ -f step5.txt];then
+if [ -f step5.txt ];then
 	result=`diff step55.txt step5.txt | wc -l`
 	if [ $result -eq 0 ];then
 		exit 0
