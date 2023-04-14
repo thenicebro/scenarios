@@ -18,3 +18,4 @@ orange
 ### Requirement
 
 - You need to be familiar enough with the `s` and `g` parameters.
+- You need to know enough about the Linux stream operators `>`.

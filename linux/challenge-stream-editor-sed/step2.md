@@ -16,3 +16,4 @@ pear
 ### Requirement
 
 - You need to be familiar enough with the d parameters.
+- You need to know enough about the Linux stream operators `>`.
