@@ -1,4 +1,4 @@
-## Step 4: Finding the Fourth Flag
+## Finding the Fourth Flag
 
 ### Introduction
 
@@ -10,7 +10,7 @@ Find the fourth flag file, and move this file to the `~/resolve` directory.
 
 ### Result Example
 
-```
+```text
 Excellent work! You found the fourth flag.
 ```
 

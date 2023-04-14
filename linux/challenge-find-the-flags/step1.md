@@ -1,4 +1,4 @@
-## Step 1: Finding the First Flag
+## Finding the First Flag
 
 ### Introduction
 
@@ -10,10 +10,10 @@ Find the first flag file, get a hint of the next flags by looking at the flags f
 
 ### Result Example
 
-```
+```text
 Congratulations! You found the first flag. The next flag is in the home directory under the root user.
 ```
 
 ### Requirement
 
-- You should be able to find the first flag file in the current directory using the cat command.
+- You should be able to find the first flag file in the current directory using the `cat` command.

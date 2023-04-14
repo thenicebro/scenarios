@@ -4,7 +4,7 @@
 
 - Input `cd ~` command to navigate to home directory of current user.
 
-- Input `unzip flag3.txt` command to extract the third flag file.
+- Input `unzip flag3.zip` command to extract the third flag file.
 
 - Input `cat flag3.txt` command to get a hint of the next flags.
 

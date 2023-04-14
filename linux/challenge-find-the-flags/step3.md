@@ -1,4 +1,4 @@
-## Step 3: Finding the Third Flag
+## Finding the Third Flag
 
 ### Introduction
 
@@ -10,9 +10,9 @@ Extract the third flag file, get a hint of the next flags by looking at the flag
 
 ### Result Example
 
-```
+```text
 Well done! You found the third flag. The next flag is located in a section of a large file largefile.txt in the /tmp directory.
-Tips: The last flag file has a filename with the word flag
+Tips: The last flag file has a filename with the word flag.
 ```
 
 ### Requirement
