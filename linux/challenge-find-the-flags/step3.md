@@ -18,4 +18,4 @@ Tips: The last flag file has a filename with the word flag.
 ### Requirement
 
 - You should be able to extract the third flag file from the zip archive.
-- Your Linux platform needs to have the unzip command installed.
+- Your Linux platform needs to have the `unzip` command installed.
