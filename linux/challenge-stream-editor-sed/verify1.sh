@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-result=`diff fruits.txt /tmp/verify1.txt | wc -l`
+result=`diff result.txt /tmp/verify1.txt | wc -l`
 if [ $result -eq 0 ];then
 	exit 0
 else

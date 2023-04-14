@@ -4,7 +4,7 @@ In this step, you will use `sed` to replace a specific string in a specific line
 
 ### Target
 
-The target of this step is to replace the word "apple" with "cherry" in the first line of the file `~/fruits3.txt`.
+The target of this step is to replace the word "apple" with "cherry" in the first line of the file `~/fruits3.txt`, and store the output in the `result3.txt` file.
 
 ### Result Example
 
