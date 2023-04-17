@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def matmul(A: np.ndarray, B: np.ndarray) -> np.ndarray:
     """
     Matrix multiplication using NumPy's einsum function.

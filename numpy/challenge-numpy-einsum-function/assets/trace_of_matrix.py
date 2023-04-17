@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def trace(A: np.ndarray) -> np.ndarray:
     """
     Compute the trace of a matrix using NumPy's einsum function.

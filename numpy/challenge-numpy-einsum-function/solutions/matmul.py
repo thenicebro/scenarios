@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def matmul(A: np.ndarray, B: np.ndarray) -> np.ndarray:
     """
     Matrix multiplication using NumPy's einsum function.
@@ -16,4 +17,4 @@ def matmul(A: np.ndarray, B: np.ndarray) -> np.ndarray:
     numpy.ndarray
         Resulting matrix of shape (M, K).
     """
-    return np.einsum('ij, jk -> ik', A, B)
+    return np.einsum("ij, jk -> ik", A, B)

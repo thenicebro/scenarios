@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def hadamard_product(A: np.ndarray, B: np.ndarray) -> np.ndarray:
     """
     Compute the Hadamard product of two matrices using NumPy's einsum function.
