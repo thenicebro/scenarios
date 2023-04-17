@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ~/.zsh_history |grep docker |grep -w "rm"
+cat ~/.zsh_history | grep docker | grep -w "rm"

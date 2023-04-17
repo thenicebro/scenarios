@@ -32,9 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/build"
-        ]
+        "skills": ["docker/build"]
       },
       {
         "title": "Run a Docker Container",
@@ -69,11 +67,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/ps",
-          "docker/stop",
-          "docker/rm"
-        ]
+        "skills": ["docker/ps", "docker/stop", "docker/rm"]
       },
       {
         "title": "Clean up the resources",
@@ -94,9 +88,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/rmi"
-        ]
+        "skills": ["docker/rmi"]
       }
     ],
     "intro": {

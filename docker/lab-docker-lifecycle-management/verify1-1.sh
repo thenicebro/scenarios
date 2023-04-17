@@ -1,2 +1,2 @@
 #!/bin/bash
-ls /home/labex/docker-lab | grep Dockerfile 
+ls /home/labex/docker-lab | grep Dockerfile
