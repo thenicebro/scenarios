@@ -1,3 +1,15 @@
+default:
+  Stale:
+    # Default time to wait before closing the label. Can either be a number in milliseconds
+    # or a string specified by the `ms` package (https://www.npmjs.com/package/ms)
+    delay: "3 days"
+
+    # Default comment to post when an issue is first marked with a closing label
+    #
+    #   $DELAY will automatically be replaced with `delay` as a formatted string (e.g. '7 days')
+    #   $LABEL will automatically be replaced with the label's name
+    comment: "Hi, @$AUTHOR \n\n你的 Reviewer 已经催促你尽快跟进 PR 的进展，请及时修订和提交，否则系统会在 $DELAY 日后自动关闭此 PR。\n\nYour reviewer has urged you to follow up the progress of the PR as soon as possible. Please revise and submit it in time, otherwise the system will automatically close this PR after $DELAY."
+
 labels:
   "Test Completed":
     action: comment
@@ -14,10 +26,6 @@ labels:
   "No Repair":
     action: comment
     message: "Hi, @$AUTHOR \n\n你的 Reviewer 已经催促你尽快跟进 PR 的进展，请及时修订和提交，否则 LabEx 会在 7 日后关闭此 PR。\n\nYour PR has been reviewed and no changes are needed. We will merge it directly. Thank you for your contribution. 🎉"
-  "Stale":
-    action: close
-    delay: 7 days
-    comment: "Hi, @$AUTHOR \n\n你的 Reviewer 已经催促你尽快跟进 PR 的进展，请及时修订和提交，否则系统会在 $DELAY 日后自动关闭此 PR。\n\nYour reviewer has urged you to follow up the progress of the PR as soon as possible. Please revise and submit it in time, otherwise the system will automatically close this PR after $DELAY."
 
 # All maintainer comments containing the pattern "test complete"
 # will apply the duplicate label
