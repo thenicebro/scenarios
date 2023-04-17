@@ -6,18 +6,18 @@ We have already created a Python file called `webbrowser_challenge.py` under the
 
 Your program should meet the following requirements:
 
-* Accept two command-line arguments:
-  * The URL of the webpage to open
-  * An optional flag to open the page in a new tab or window
-* If the flag is present, the program should open the webpage in a new tab or window, depending on the user's browser preferences. If the flag is not present, the program should open the webpage in the current tab.
+- Accept two command-line arguments:
+  - The URL of the webpage to open
+  - An optional flag to open the page in a new tab or window
+- If the flag is present, the program should open the webpage in a new tab or window, depending on the user's browser preferences. If the flag is not present, the program should open the webpage in the current tab.
 
 ## Instructions
 
-* Import the `webbrowser` and `argparse` modules.
-* Use the `argparse` module to parse the command-line arguments.
-* Store the command-line arguments in variables.
-* Use the `webbrowser` module to open the specified URL in a new tab or window, depending on the user's preference.
-* Handle any errors that might occur.
+- Import the `webbrowser` and `argparse` modules.
+- Use the `argparse` module to parse the command-line arguments.
+- Store the command-line arguments in variables.
+- Use the `webbrowser` module to open the specified URL in a new tab or window, depending on the user's preference.
+- Handle any errors that might occur.
 
 ## Example
 
