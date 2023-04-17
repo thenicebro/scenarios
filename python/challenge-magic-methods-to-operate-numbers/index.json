@@ -1,6 +1,6 @@
 {
   "type": "challenge",
-  "title": "Python Magic Methods To Operate Numbers",
+  "title": "Magic Methods To Operate Numbers",
   "description": "In this challenge, you will be tasked with creating a custom Python class that utilizes magic methods to perform mathematical operations on instances of the class.",
   "difficulty": "Intermediate",
   "time": 25,

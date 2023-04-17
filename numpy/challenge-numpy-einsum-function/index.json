@@ -1,6 +1,6 @@
 {
   "type": "challenge",
-  "title": "The Powerful Numpy Einsum Function",
+  "title": "NumPy Einsum Function",
   "description": "This challenge is designed to test your skills in using Numpy's einsum function, which allows you to perform various operations on multi-dimensional arrays. The challenge consists of several sub-challenges that gradually increase in difficulty.",
   "difficulty": "Intermediate",
   "time": 30,
