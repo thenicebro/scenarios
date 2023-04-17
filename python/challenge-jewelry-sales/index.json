@@ -18,12 +18,14 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/data_types",
-                   "python/for_loop",
-                   "python/tuple",
-                   "python/function_basic",
-                   "python/round",
-                   "python/if_else"],
+        "skills": [
+          "python/data_types",
+          "python/for_loop",
+          "python/tuple",
+          "python/function_basic",
+          "python/round",
+          "python/if_else"
+        ],
         "solutions": ["jewelry_sales.py"]
       }
     ],

@@ -1,6 +1,5 @@
 # Jewelry Sales
 
-
 ## Introduction
 
 You work for a small business that sells handmade jewelry. They have asked you to help them create a program that will track their sales data. The business currently uses a spreadsheet to manage their sales data, but they are finding it difficult to keep up with the increasing volume of sales. Your task is to create a Python program that will process the sales data and provide useful insights to help the business make informed decisions.
@@ -8,11 +7,13 @@ You work for a small business that sells handmade jewelry. They have asked you t
 ## Problem Description
 
 You will be given a list of tuples, where each tuple represents a sale. Each tuple contains the following information:
+
 - the name of the product sold (a string)
 - the quantity sold (an integer)
 - the price per unit (a float)
 
 Your program should process this data and provide the following information:
+
 - the total revenue generated from sales
 - the total quantity of products sold
 - the average price per unit sold
