@@ -14,7 +14,7 @@ labels:
   "No Repair":
     action: comment
     message: "Hi, @$AUTHOR \n\n你的 Reviewer 已经催促你尽快跟进 PR 的进展，请及时修订和提交，否则 LabEx 会在 7 日后关闭此 PR。\n\nYour PR has been reviewed and no changes are needed. We will merge it directly. Thank you for your contribution. 🎉"
-  Stale:
+  "Stale":
     action: close
     delay: 7 days
     comment: "Hi, @$AUTHOR \n\n你的 Reviewer 已经催促你尽快跟进 PR 的进展，请及时修订和提交，否则系统会在 $DELAY 日后自动关闭此 PR。\n\nYour reviewer has urged you to follow up the progress of the PR as soon as possible. Please revise and submit it in time, otherwise the system will automatically close this PR after $DELAY."
