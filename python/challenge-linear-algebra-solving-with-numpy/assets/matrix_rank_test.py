@@ -5,6 +5,7 @@ import unittest
 import numpy as np
 from matrix_rank import matrix_rank
 
+
 class TestMatrixRank(unittest.TestCase):
     def test_matrix_rank(self):
         A = np.array([[1, 3], [2, 4]])

@@ -15,7 +15,13 @@ class TestMatrixInversion(unittest.TestCase):
         self.assertTrue(
             np.allclose(
                 invert_matrix(A),
-                np.array([[-1.33333333,0.,0.33333333], [0.66666667,1.,-0.66666667], [0.33333333,-0.66666667,0.33333333]]),
+                np.array(
+                    [
+                        [-1.33333333, 0.0, 0.33333333],
+                        [0.66666667, 1.0, -0.66666667],
+                        [0.33333333, -0.66666667, 0.33333333],
+                    ]
+                ),
             )
         )
         self.assertTrue(
