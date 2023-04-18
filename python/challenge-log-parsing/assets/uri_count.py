@@ -4,4 +4,3 @@ def uri_count(file_name: str) -> dict[str, int]:
     # Note: Do not change the existing code
 
     return result
-

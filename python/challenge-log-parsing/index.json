@@ -18,11 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/rw_files",
-          "python/open",
-          "python/for_loop"
-        ],
+        "skills": ["python/rw_files", "python/open", "python/for_loop"],
         "solutions": ["read_log.py"]
       },
       {
@@ -37,10 +33,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/dict",
-          "python/manipulating_strings"
-        ],
+        "skills": ["python/dict", "python/manipulating_strings"],
         "solutions": ["uri_count.py"]
       },
       {
@@ -55,10 +48,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/sum",
-          "python/len"
-        ],
+        "skills": ["python/sum", "python/len"],
         "solutions": ["time_statistics.py"]
       }
     ],

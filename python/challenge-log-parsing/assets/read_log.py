@@ -4,4 +4,3 @@ def read_log(file_name: str) -> int:
     line_count = 0
 
     return line_count
-
