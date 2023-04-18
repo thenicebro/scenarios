@@ -25,10 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/describe",
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/describe", "kubernetes/apply"]
       },
       {
         "title": "Describe a Deployment",
