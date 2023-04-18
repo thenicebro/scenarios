@@ -18,9 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/proxy"
-        ]
+        "skills": ["kubernetes/proxy"]
       },
       {
         "title": "Access the Kubernetes Api with Curl",
