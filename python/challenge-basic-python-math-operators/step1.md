@@ -34,4 +34,3 @@ The quotient of 6 and 4 is 1.5.
 The remainder when 6 is divided by 4 is 2.
 
 ```
-
