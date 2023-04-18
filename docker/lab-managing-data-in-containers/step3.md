@@ -3,10 +3,10 @@
 To write data to a Docker volume, you can simply write to the directory where the volume is mounted inside the container. For example, if you want to create a new file in the `myvolume` volume, you can run the following command inside the container:
 
 ```bash
-docker exec -c "echo 'Hello, World!' > /app/data/hello.txt" < container_name > sh
+docker exec container_name sh -c "echo 'Hello, World!' > /app/data/hello.txt"
 ```
 
-Replace `<container_name>` with the name `c1` of the running container. This command writes the `Hello, World!` string to the `/app/data/hello.txt` file inside the container.
+Replace `container_name` with the name `c1` of the running container. This command writes the `Hello, World!` string to the `/app/data/hello.txt` file inside the container.
 
 You can verify that the file is created by running the following command on your host machine:
 
