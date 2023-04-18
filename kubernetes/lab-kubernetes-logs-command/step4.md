@@ -5,7 +5,7 @@ In this step, you will learn how to view logs from multiple containers running i
 1. Create a pod with two containers: Nginx and Fluentd:
 
    ```bash
-   cat <<EOF | kubectl apply -f -
+   cat << EOF | kubectl apply -f -
    apiVersion: v1
    kind: Pod
    metadata:
