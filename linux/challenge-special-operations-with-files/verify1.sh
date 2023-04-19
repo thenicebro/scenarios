@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-RS=`cat ~/myrepo/result.txt`
+RS=`cat ~/result.txt`
 if [ $RS -eq 2 ];then
 	exit 0
 else

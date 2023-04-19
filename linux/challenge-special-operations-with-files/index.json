@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Count the number of files",
+        "title": "Count the Number of Files",
         "text": "step1.md",
         "verify": [
           {

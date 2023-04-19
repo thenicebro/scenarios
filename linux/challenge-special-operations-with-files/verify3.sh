@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [ -f ~/tmp ] && [ -f ~/tmp/dir ];then
+if [ -d ~/tmp ] && [ -d ~/tmp/dir ];then
 	exit 0
 else
 	exit 1
