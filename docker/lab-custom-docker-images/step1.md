@@ -1,6 +1,6 @@
 # Create A Simple Docker Image
 
-The first step is to create a simple Docker image that runs a simple web server. We will use the `nginx` web server as an example. 
+The first step is to create a simple Docker image that runs a simple web server. We will use the `nginx` web server as an example.
 
 1. Create a new directory called `docker` for this lab at this path `/home/labex`, and navigate to it.
 
@@ -23,12 +23,12 @@ This Dockerfile defines a new image based on the official `nginx` image, and cop
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Hello Docker!</title>
-</head>
-<body>
-	<h1>Hello Docker!</h1>
-</body>
+  <head>
+    <title>Hello Docker!</title>
+  </head>
+  <body>
+    <h1>Hello Docker!</h1>
+  </body>
 </html>
 ```
 
@@ -55,4 +55,3 @@ docker run -p 8080:80 my-nginx
 ```
 
 This command starts a new container based on the `my-nginx` image, and maps port 8080 on the host to port 80 in the container. You should be able to access the web server by navigating to `http://localhost:8080` in your web browser.
-
