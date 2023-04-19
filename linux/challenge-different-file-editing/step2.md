@@ -1,4 +1,4 @@
-# Count the total number of lines in a file
+# Count the Total Number of Lines
 
 ## Introduction
 

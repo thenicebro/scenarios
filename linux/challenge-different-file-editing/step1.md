@@ -1,4 +1,4 @@
-# Delete all contents of the current directory
+# Delete All Contents of Directory
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# Split numbers in a file and store output
+# Split Numbers in a File and Store
 
 ## Introduction
 
