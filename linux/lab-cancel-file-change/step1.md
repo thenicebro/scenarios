@@ -6,7 +6,7 @@ Before you start the lab you need to enter the working directory `myrepo` to com
 
 1. `touch test.txt`
 
-2. Open `test.txt` in your favorite text editor and add some text.
+2. Open `test.txt` in your favorite text editor(`vim` or `vi`) and add some text.
 
 3. `git add test.txt`
 
