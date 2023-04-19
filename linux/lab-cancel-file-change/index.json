@@ -1,0 +1,71 @@
+{
+  "type": "lab",
+  "title": "Cancel File Change",
+  "description": "In this lab, you will learn how to use the restore, rm, and reset commands in Git. These commands are essential for managing your Git repository and undoing changes that you no longer need.",
+  "difficulty": "Beginner",
+  "time": 15,
+  "details": {
+    "steps": [
+      {
+        "title": "Using the Git Restore Command",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Detects if the user has restored a file",
+            "file": "verify1.sh",
+            "hint": "Please restore a file",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["git/restore", "git/add", "git/status"]
+      },
+      {
+        "title": "Using the Rm Command",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "Detects if the user has removed a file",
+            "file": "verify2.sh",
+            "hint": "Please remove a file",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["git/rm", "git/add", "git/status"]
+      },
+      {
+        "title": "Using the Reset Command",
+        "text": "step3.md",
+        "verify": [
+          {
+            "name": "Detects if the user has unstaged the changes",
+            "file": "verify3.sh",
+            "hint": "Please unstage the changes",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["git/reset", "git/add", "git/status"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "",
+          "target": "/tmp"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "webide-ubuntu:2204"
+  }
+}
