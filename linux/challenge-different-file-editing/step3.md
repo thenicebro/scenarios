@@ -6,7 +6,7 @@ In this task, you need to split a list of numbers in a file called `split-me.txt
 
 ## Target
 
-Split the numbers in the `~/split-me.txt` file on a new line character and store the output in a file called `~/result1.txt`.
+Split the numbers in the  file `~/split-me.txt` on a new line character and store the output in a file called `~/result1.txt`.
 
 ## Result Example
 
