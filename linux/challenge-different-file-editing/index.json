@@ -33,7 +33,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/wc"],
+        "skills": ["linux/cat"],
         "solutions": ["step2-solution.md"]
       },
       {
