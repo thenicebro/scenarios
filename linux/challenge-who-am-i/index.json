@@ -13,7 +13,7 @@
                     {
                         "name": "Detects whether the user has displayed your current user identity",
                         "file": "verify1.sh",
-                        "hint": "Please displayed your current user identity",
+                        "hint": "Please display your current user identity",
                         "timeout": 0,
                         "showstderr": false
                     }
@@ -32,7 +32,7 @@
                     {
                         "name": "Detects whether the user has displayed all logged-in users",
                         "file": "verify2.sh",
-                        "hint": "Please displayed all logged-in users",
+                        "hint": "Please display all logged-in users",
                         "timeout": 0,
                         "showstderr": false
                     }
@@ -51,7 +51,7 @@
                     {
                         "name": "Detects whether the user has displayed user and group information",
                         "file": "verify3.sh",
-                        "hint": "Please displayed user and group information",
+                        "hint": "Please display user and group information",
                         "timeout": 0,
                         "showstderr": false
                     }
