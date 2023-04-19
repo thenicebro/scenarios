@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [-f ~/result.txt ];then
+if [ -f ~/result.txt ];then
 
 	RS=`diff ~/result.txt /tmp/verify.txt | wc -l`
 	if [ $RS -eq 0 ];then
