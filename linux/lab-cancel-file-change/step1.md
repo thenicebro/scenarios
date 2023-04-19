@@ -10,7 +10,7 @@ Before you start the lab you need to enter the working directory `myrepo` to com
 
 3. `git add test.txt`
 
-4. Open `test.txt` in your text editor and make some changes to the text.
+4. Open `test.txt` in your text editor(`vim` or `vi`) and make some changes to the text.
 
 5. `git status`
 
@@ -27,9 +27,13 @@ Before you start the lab you need to enter the working directory `myrepo` to com
 
 7. `git status`
 
-   ```
+   ```bash
    On branch master
-   nothing to commit, working tree clean
+   Changes to be committed:
+     (use "git reset HEAD <file>..." to unstage)
+   
+   	new file:   test.txt
+   
    ```
 
 ## Explanation:

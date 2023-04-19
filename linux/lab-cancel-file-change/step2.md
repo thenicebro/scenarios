@@ -2,20 +2,16 @@
 
 ## Instructions:
 
-1. Open `test.txt` in your favorite text editor and add some text.
+1. `git commit -m "Add test.txt"`
 
-2. `git add test.txt`
+2. `git rm test.txt`
 
-3. `git commit -m "Add test.txt"`
+3. `git commit -m "Remove test.txt"`
 
-4. `git rm test.txt`
+4. `ls test.txt`
 
-5. `git commit -m "Remove test.txt"`
-
-6. `ls test.txt`
-
-   ```
-   # the file should no longer be in the working directory
+   ```bash
+   ls: cannot access 'test.txt': No such file or directory
    ```
 
 ## Explanation:

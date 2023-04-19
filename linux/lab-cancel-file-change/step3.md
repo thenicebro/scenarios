@@ -1,37 +1,31 @@
-# SUsing the Reset Command
+# Using the Git Reset Command
 
 ## Instructions:
 
-1. `touch test.txt`
+1. `git status`
 
-2. Open `test.txt` in your favorite text editor and add some text.
+   ```bash
+   On branch master
+   nothing to commit, working tree clean
+   ```
 
-3. `git add test.txt`
+2. `git reset HEAD~1 test.txt`
 
-4. `git commit -m "Add text to test.txt"`
-
-5. Open `test.txt` in your text editor and make some changes to the text.
-
-6. `git status`
+3. `git status`
 
    ```
    On branch master
    Changes to be committed:
-     (use "git restore --staged <file>..." to unstage)
-           modified:   test.txt
-   ```
-
-7. `git reset HEAD~1 test.txt`
-
-8. `git status`
-
-   ```
-   On branch master
+     (use "git reset HEAD <file>..." to unstage)
+   
+   	new file:   test.txt
+   
    Changes not staged for commit:
-     (use "git add <file>..." to update what will be committed)
-     (use "git restore <file>..." to discard changes in working directory)
-           modified:   test.txt
-   no changes added to commit (use "git add" and/or "git commit -a")
+     (use "git add/rm <file>..." to update what will be committed)
+     (use "git checkout -- <file>..." to discard changes in working directory)
+   
+   	deleted:    test.txt
+   
    ```
 
 ## Explanation:

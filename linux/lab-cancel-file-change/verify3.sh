@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 cd ~/myrepo
-git status | grep -iqE "^nothing"
+git status | grep -iqE "^Changes"
 RS=$?
 cat ~/.zsh_history | grep "reset"
 RS1=$?
