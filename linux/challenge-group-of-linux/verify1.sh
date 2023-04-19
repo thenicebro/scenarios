@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cat /etc/group | grep "sales"
+sudo cat /etc/group | grep "sales"
 RS=$?
 if [ $RS -eq 0 ];then
 	exit 0
