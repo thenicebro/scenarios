@@ -1,8 +1,14 @@
 #!/bin/zsh
 
-RS=`diff ~/result.txt /tmp/verify.txt | wc -l`
-if [ $RS -eq 0 ];then
-	exit 0;
+if [-f ~/result.txt ];then
+
+	RS=`diff ~/result.txt /tmp/verify.txt | wc -l`
+	if [ $RS -eq 0 ];then
+		exit 0;
+	else
+		exit 1;
+	fi
+	
 else
-	exit 1;
+	exit 1
 fi

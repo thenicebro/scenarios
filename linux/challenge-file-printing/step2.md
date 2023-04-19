@@ -10,10 +10,11 @@ Remove all files without the `.sh` and `.bat` extensions recursively in the curr
 
 ## Result Example
 
-```
+```bash
 file1.sh
 file2.bat
 dir1/file4.sh
+dir2/
 ```
 
 ## Requirement
