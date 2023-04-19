@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-touch ~/myrepo
+mkdir ~/myrepo
 cd ~/myrepo
 git init
 git config --global user.email "labex@example.com"
