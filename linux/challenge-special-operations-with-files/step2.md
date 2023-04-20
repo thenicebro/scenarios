@@ -2,7 +2,7 @@
 
 ## Introduction
 
-To complete this task, you will show the file `~/myrepo/'a\. a.txt'` and store the output in the `~/result1.txt` file.
+To complete this task, you will show the file `~/project/myrepo/'a\. a.txt'` and store the output in the `~/project/result1.txt` file.
 
 ## Target
 

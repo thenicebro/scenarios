@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [ -d ~/tmp ] && [ -d ~/tmp/dir ];then
+if [ -d ~/project/tmp ] && [ -d ~/project/tmp/dir ];then
 	exit 0
 else
 	exit 1

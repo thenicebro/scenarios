@@ -6,7 +6,7 @@ To complete this task, you will need to create a directory and a subdirectory wi
 
 ## Target
 
-The target is to create both `~/tmp/` and `~/tmp/dir` directories.
+The target is to create both `~/project/tmp/` and `~/project/tmp/dir` directories.
 
 ## Requirement
 

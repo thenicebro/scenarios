@@ -2,7 +2,7 @@
 
 ## Introduction
 
-To complete this task, you will need to use the Linux command to count the number of files in the working directory `~/myrepo`, and store the output in the `~/result.txt` file
+To complete this task, you will need to use the Linux command to count the number of files in the working directory `~/project/myrepo`, and store the output in the `~/project/result.txt` file
 
 ## Target
 
@@ -13,8 +13,6 @@ The target is to count the number of files in the current working directory.
 ```text
 3
 ```
-
-This command will list all the files in the current working directory and then count the number of lines in the output.
 
 ## Requirement
 
