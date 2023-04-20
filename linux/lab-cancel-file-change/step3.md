@@ -10,22 +10,21 @@
    ```
 
 2. `git reset HEAD~1 test.txt`
-
 3. `git status`
 
    ```
    On branch master
    Changes to be committed:
      (use "git reset HEAD <file>..." to unstage)
-   
+
    	new file:   test.txt
-   
+
    Changes not staged for commit:
      (use "git add/rm <file>..." to update what will be committed)
      (use "git checkout -- <file>..." to discard changes in working directory)
-   
+
    	deleted:    test.txt
-   
+
    ```
 
 ## Explanation:

@@ -3,11 +3,8 @@
 ## Instructions:
 
 1. `git commit -m "Add test.txt"`
-
 2. `git rm test.txt`
-
 3. `git commit -m "Remove test.txt"`
-
 4. `ls test.txt`
 
    ```bash

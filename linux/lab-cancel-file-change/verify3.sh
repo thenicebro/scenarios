@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd ~/myrepo
+cd ~/project/myrepo
 git status | grep -iqE "^Changes"
 RS=$?
 cat ~/.zsh_history | grep "reset"

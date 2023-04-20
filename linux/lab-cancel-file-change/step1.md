@@ -1,17 +1,13 @@
 # Using the Git Restore Command
 
-Before you start the lab you need to enter the working directory `myrepo` to complete all the next operations, run `cd ~/myrepo` to enter the working directory.
+Before you start the lab you need to enter the working directory `myrepo` to complete all the next operations, run `cd ~/project/myrepo` command to enter the working directory.
 
 ## Instructions:
 
 1. `touch test.txt`
-
 2. Open `test.txt` in your favorite text editor(`vim` or `vi`) and add some text.
-
 3. `git add test.txt`
-
 4. Open `test.txt` in your text editor(`vim` or `vi`) and make some changes to the text.
-
 5. `git status`
 
    ```bash
@@ -22,9 +18,7 @@ Before you start the lab you need to enter the working directory `myrepo` to com
            modified:   test.txt
    no changes added to commit (use "git add" and/or "git commit -a")
    ```
-
 6. `git restore test.txt`
-
 7. `git status`
 
    ```bash
