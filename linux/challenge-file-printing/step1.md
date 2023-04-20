@@ -6,7 +6,7 @@ In this step, you will print the numbers 1 to 10 separated by spaces.
 
 ## Target
 
-Print the numbers 1 to 10 separated by spaces, and you need to store the print results in the file `~/result.txt`.
+Print the numbers 1 to 10 separated by spaces, and you need to store the print results in the file `~/project/result.txt`.
 
 ## Result Example
 

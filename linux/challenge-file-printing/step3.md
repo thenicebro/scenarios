@@ -6,7 +6,7 @@ In this step, you will print the 15th line of the file `example.txt`.
 
 ## Target
 
-Print the 15th line of the file `~/example.txt`, and you need to store the print results in the `~/result1.txt` file
+Print the 15th line of the file `~/project/example.txt`, and you need to store the print results in the `~/project/result1.txt` file
 
 ## Result Example
 

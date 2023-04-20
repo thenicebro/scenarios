@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-if [ -f ~/result1.txt ];then
+if [ -f ~/project/result1.txt ];then
 
-	RS=`diff ~/result1.txt /tmp/verify1.txt | wc -l`
+	RS=`diff ~/project/result1.txt /tmp/verify1.txt | wc -l`
 	if [ $RS -eq 0 ];then
 		exit 0;
 	else

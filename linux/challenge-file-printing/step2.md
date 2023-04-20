@@ -6,7 +6,7 @@ In this step, you will remove all files without the `.sh` and `.bat` extensions 
 
 ## Target
 
-Remove all files without the `.sh` and `.bat` extensions recursively in the current working directory `~/myrepo`.
+Remove all files without the `.sh` and `.bat` extensions recursively in the current working directory `~/project/myrepo`.
 
 ## Result Example
 
