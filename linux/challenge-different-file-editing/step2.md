@@ -6,7 +6,7 @@ In this task, you need to count the total number of lines in a file called `acce
 
 ## Target
 
-Count the total number of lines in the `~/access.log` file and store the result in a file called `~/result.txt`.
+Count the total number of lines in the `~/project/access.log` file and store the result in a file called `~/project/result.txt`.
 
 ## Result Example
 

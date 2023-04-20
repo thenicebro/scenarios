@@ -6,7 +6,7 @@ In this task, you need to delete all the contents of the current directory using
 
 ## Target
 
-Delete all the files and directories in the current directory `~/myrepo`.
+Delete all the files and directories in the current directory `~/project/myrepo`.
 
 ## Requirement
 

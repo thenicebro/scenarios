@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd ~/myrepo
+cd ~/project/myrepo
 RS=`ls | wc -l`
 if [ $RS -eq 0 ];then
 	exit 0

@@ -1,14 +1,14 @@
 #!/bin/zsh
 
-mkdir ~/myrepo
+mkdir ~/project/myrepo
 
-touch ~/myrepo/file1.txt ~/myrepo/file2.txt ~/access.log
-mkdir ~/myrepo/dir1 ~/myrepo/dir2
+touch ~/project/myrepo/file1.txt ~/project/myrepo/file2.txt ~/project/access.log
+mkdir ~/project/myrepo/dir1 ~/project/myrepo/dir2
 
-echo "line1" >> ~/access.log
-echo "line2" >> ~/access.log
+echo "line1" >> ~/project/access.log
+echo "line2" >> ~/project/access.log
 
-echo "1;2;3;4;5" >> ~/split-me.txt
+echo "1;2;3;4;5" >> ~/project/split-me.txt
 echo "1" >> /tmp/verify.txt
 echo "2" >> /tmp/verify.txt
 echo "3" >> /tmp/verify.txt
