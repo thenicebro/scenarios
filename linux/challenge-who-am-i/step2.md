@@ -6,11 +6,7 @@ The target of this step is to use the Linux command to display all logged-in use
 
 ### Result Example
 
-```
-labex  tty1         2023-04-17 11:20 (:0)
-```
-
-Result example is for reference only, the output is based on the local machine.
+No result example after command execution.
 
 ### Requirement
 
