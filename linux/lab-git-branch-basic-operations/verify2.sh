@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd ~/myrepo
+cd ~/project
 
 git branch | grep 'branch-to-delete'
 RS=$?

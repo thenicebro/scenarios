@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-cd ~/myrepo
+cd ~/project
 git branch --merged | grep 'new-name'
