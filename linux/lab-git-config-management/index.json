@@ -40,15 +40,8 @@
         "verify": [
           {
             "name": "Detects if a user has modified the Git configuration information",
-            "file": "verify3.1.sh",
+            "file": "verify3.sh",
             "hint": "Please modify the Git configuration information",
-            "timeout": 0,
-            "showstderr": false
-          },
-          {
-            "name": "Detects if a user has undone changes to Git configuration information",
-            "file": "verify3.2.sh",
-            "hint": "Please undo changes to Git configuration information",
             "timeout": 0,
             "showstderr": false
           }
@@ -73,6 +66,6 @@
     }
   },
   "backend": {
-    "imageid": "vnc-ubuntu:2204"
+    "imageid": "webide-ubuntu:2204"
   }
 }
