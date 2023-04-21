@@ -1,3 +1,3 @@
 # Solution
 
-Input `who` command to display all logged-in users.
+Input `id` command to display user and group information.

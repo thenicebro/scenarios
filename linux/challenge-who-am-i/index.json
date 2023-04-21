@@ -3,7 +3,7 @@
     "title": "Who Am I",
     "description": "In this challenge, you will learn about user identity and permissions in a Linux environment.",
     "difficulty": "Beginner",
-    "time": 15,
+    "time": 10,
     "details": {
         "steps": [
             {
@@ -26,31 +26,12 @@
                 ]
             },
             {
-                "title": "Display Logged-In Users",
+                "title": "Display User and Group Information",
                 "text": "step2.md",
                 "verify": [
                     {
-                        "name": "Detects whether the user has displayed all logged-in users",
-                        "file": "verify2.sh",
-                        "hint": "Please display all logged-in users",
-                        "timeout": 0,
-                        "showstderr": false
-                    }
-                ],
-                "skills": [
-                    "linux/who"
-                ],
-                "solutions": [
-                    "step2-solution.md"
-                ]
-            },
-            {
-                "title": "Display User and Group Information",
-                "text": "step3.md",
-                "verify": [
-                    {
                         "name": "Detects whether the user has displayed user and group information",
-                        "file": "verify3.sh",
+                        "file": "verify2.sh",
                         "hint": "Please display user and group information",
                         "timeout": 0,
                         "showstderr": false
@@ -60,7 +41,7 @@
                     "linux/id"
                 ],
                 "solutions": [
-                    "step3-solution.md"
+                    "step2-solution.md"
                 ]
             }
         ],
