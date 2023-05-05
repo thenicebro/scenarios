@@ -1,35 +1,32 @@
-# Using the Git Restore Command
+# Undo the changes you made
 
-Before you start the lab you need to enter the working directory `myrepo` to complete all the next operations, run `cd ~/project/myrepo` command to enter the working directory.
+The git restore command is used to discard changes in your working directory. This can be useful if you have made changes to a file that you no longer want to keep.
 
-## Instructions:
+To use this command, you will first need to switch to the working directory `~/project/myrepo` and make changes to a file in your working directory. For example, you can add a line of text to a file:
 
-1. `touch test.txt`
-2. Open `test.txt` in your favorite text editor(`vim` or `vi`) and add some text.
-3. `git add test.txt`
-4. Open `test.txt` in your text editor(`vim` or `vi`) and make some changes to the text.
-5. `git status`
+```bash
+cd ~/project/myrepo
+echo "hello" > file.txt
+```
 
-   ```bash
-   On branch master
-   Changes not staged for commit:
-     (use "git add <file>..." to update what will be committed)
-     (use "git restore <file>..." to discard changes in working directory)
-           modified:   test.txt
-   no changes added to commit (use "git add" and/or "git commit -a")
-   ```
-6. `git restore test.txt`
-7. `git status`
+Next, use the `git status` command to see the changes that you have made to the file:
 
-   ```bash
-   On branch master
-   Changes to be committed:
-     (use "git reset HEAD <file>..." to unstage)
-   
-   	new file:   test.txt
-   
-   ```
+```bash
+git status
+# output:
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+(use "git restore <file>..." to discard changes in working directory)
+  modified:   file.txt
+```
 
-## Explanation:
+no changes added to commit (use "git add" and/or "git commit -a")
+Finally, use the `git restore <filename>` command to discard the changes that you have made to the file:
 
-In this step, we learned how to use the `git restore` command to discard changes in the working directory. After making some changes to the `test.txt` file and adding it to the staging area, we used `git status` to see that the changes were not yet staged for commit. Then, we used `git restore` to discard the changes and return the file to its previous state. We verified that the changes were discarded using `git status`.
+```bash
+git restore file.txt
+```
+
+The changes made to the file will be discarded and the file will be restored to its previous state.

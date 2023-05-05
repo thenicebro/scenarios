@@ -1,3 +1,3 @@
 # Summary
 
-In this lab, we learned about three important Git commands: `git restore`, `git rm`, and `git reset`. We learned how to use these commands to discard changes in the working directory, remove files from the Git repository, and unstage changes that have been added to the staging area. By mastering these commands, we can better manage our Git repositories and work more efficiently as developers.
+In this lab, you learned how to use the `git restore`, `git rm`, and `git reset` commands. These commands are essential for effective version control and can help you undo changes that you have made to your Git repository. Remember to use these commands carefully and always make sure that you have a backup of your repository before making any changes.

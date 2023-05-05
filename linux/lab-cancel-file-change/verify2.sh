@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-FILE=~/project/myrepo/test.txt
+FILE=~/project/myrepo/file.txt
 if [ -f "$FILE" ];then
 	exit 1
 else

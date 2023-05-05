@@ -1,32 +1,49 @@
-# Using the Git Reset Command
+# Undo and Reset
 
-## Instructions:
+The `git reset` command is used to undo changes to your Git repository. This can be useful if you have made changes to your repository that you want to undo.
 
-1. `git status`
+First, use the `git log command` to find the commit that you want to reset to:
 
-   ```bash
-   On branch master
-   nothing to commit, working tree clean
-   ```
+```bash
+git log
+# output:
+commit d1a2b3c4e5f6g7h8i9j0k1l2m3n4o5p6
+Author: John Doe <johndoe@example.com>
+Date: Mon Apr 25 12:00:00 2023 -0400
 
-2. `git reset HEAD~1 test.txt`
-3. `git status`
+	Added file.txt
 
-   ```bash
-   On branch master
-   Changes to be committed:
-     (use "git reset HEAD <file>..." to unstage)
-   
-   	new file:   test.txt
-   
-   Changes not staged for commit:
-     (use "git add/rm <file>..." to update what will be committed)
-     (use "git checkout -- <file>..." to discard changes in working directory)
-   
-   	deleted:    test.txt
-   
-   ```
+commit a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+Author: John Doe <johndoe@example.com>
+Date: Mon Apr 24 12:00:00 2023 -0400
 
-## Explanation:
+	Initial commit
 
-In this step, we learned how to use the `git reset` command to unstage changes that have been added to the staging area. After adding some text to the `test.txt` file and committing the changes, we made some additional changes to the file and used `git status` to see that the changes were staged for commit. We then used `git reset` to unstage the changes and returned the file to its previous state. We verified that the changes were unstaged using `git status`.
+```
+
+In this example, we want to reset the repository to the initial commit with the hash `a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6`.
+
+Next, use the `git reset --hard <commit>` command to reset the repository:
+
+```bash
+git reset --hard a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+```
+
+This will reset the repository to the commit that you specified.
+
+> Tips: you should fill in your hash value instead of this one on the example.
+
+Finally, use the `git log` command again to confirm that your repository has been reset:
+
+```bash
+git log
+# output:
+commit a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+Author: John Doe <johndoe@example.com>
+Date: Mon Apr 24 12:00:00 2023 -0400
+
+	Initial commit
+
+```
+
+The repository has been reset to the commit that you specified.

@@ -1,3 +1,3 @@
 # Cancel File Change
 
-In this lab, you will learn how to use the `restore`, `rm`, and `reset` commands in Git. These commands are essential for managing your Git repository and undoing changes that you no longer need. This lab consists of three steps, each corresponding to a command.
+In this lab, you will learn how to use three important Git commands: restore, rm, and reset. These commands are used to undo changes in your Git repository. Understanding how to use them is essential for effective version control.
