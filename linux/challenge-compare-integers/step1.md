@@ -23,3 +23,9 @@ Write a script to compare larger integer values from a `n` number of arguments u
 - The number of arguments can vary every time.
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash compareIntegers.sh 1 4 2 3
+Largest number in n-integer value is:   4
+```
+
