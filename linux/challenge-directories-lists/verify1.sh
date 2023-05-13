@@ -2,6 +2,7 @@
 
 cd ~/project
 
+touch ~/tmp/output.txt
 bash dirList.sh ~/project ~/project/dir > ~/tmp/output.txt
 
 rs=$(cat ~/tmp/output.txt | egrep "*.sh" | wc -l)
