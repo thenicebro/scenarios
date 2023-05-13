@@ -19,4 +19,14 @@ Display the longest and shortest user-names on the system.
 - Fetch user-names from the first field in `/etc/passwd` file.
 - Print longest and shortest name.
 
-**Sample Execution / Output:**
+## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash longAndShort.sh 
+
+
+[OUTPUT] Largest and Shortest UserName [OUTPUT]
+Largest Username is systemd-timesync
+Smallest Username is lp
+```
+
