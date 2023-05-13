@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd /project
+cd ~/project
 
 if [ $(bash fileInfo.sh | wc -l) -eq 4 ];then
 	exit 0
