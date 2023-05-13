@@ -2,10 +2,7 @@
 
 cd /project
 
-bash fileInfo.sh > /tmp/output.txt
-
-rs=$(cat /tmp/output.txt | wc -l)
-if [ $rs -eq 4 ];then
+if [ $(bash fileInfo.sh | wc -l) -eq 4 ];then
 	exit 0
 else
 	exit 1
