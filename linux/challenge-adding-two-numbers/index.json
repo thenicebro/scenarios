@@ -19,7 +19,7 @@
                     }
                 ],
                 "skills": [
-                    "Please copy the skill ID from the official skill tree"
+                    "linux/echo"
                 ],
                 "solutions": [
                     "step1-solution.md"
