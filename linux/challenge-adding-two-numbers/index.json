@@ -19,8 +19,7 @@
                     }
                 ],
                 "skills": [
-                    "linux/echo",
-					"linux/read"
+                    "linux/echo"
                 ],
                 "solutions": [
                     "step1-solution.md"
