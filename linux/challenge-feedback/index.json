@@ -1,0 +1,50 @@
+{
+    "type": "challenge",
+    "title": "Feedback",
+    "description": "Use pipes or redirection to create an infinite feedback loop.",
+    "difficulty": "Intermediate",
+    "time": 5,
+    "details": {
+        "steps": [
+            {
+                "title": "Feedback",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Checking the feasibility of solutions offered by users",
+                        "file": "verify1.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "linux/echo",
+					"linux/cat",
+					"linux/tail"
+                ],
+                "solutions": [
+                    "step1-solution.md"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "feedback.sh",
+                    "target": "/tmp"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "webide-ubuntu:2204"
+    }
+}
