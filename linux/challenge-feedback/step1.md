@@ -21,3 +21,23 @@ Use pipes or redirection to create an infinite feedback loop.
 - Look at the documentation for the `tail` command
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash feedback.sh 
+[INPUT] Enter the word [INPUT]
+hello
+^C
+labex:project/ $ cat new.txt
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+...
+```
+
