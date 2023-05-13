@@ -4,7 +4,7 @@ cd ~/project
 
 bash dirList.sh ~/project ~/project/dir > ~/tmp/output.txt
 
-rs=$(cat output.txt | egrep "*.sh" | wc -l)
+rs=$(cat ~/tmp/output.txt | egrep "*.sh" | wc -l)
 if [ $rs -eq 2 ];then
 	rm ~/tmp/output.txt
 	exit 0
