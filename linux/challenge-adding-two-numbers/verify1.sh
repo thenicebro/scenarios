@@ -3,6 +3,7 @@
  # Test script to test add2No.sh
 
  # Function to compare expected and actual output
+ cd ~/project
  rs=0
  compare_output() {
 	     expected_output=$1
