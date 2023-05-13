@@ -36,8 +36,8 @@
         "assets": {
             "host01": [
                 {
-                    "file": "*",
-                    "target": "~/"
+                    "file": "*.sh",
+                    "target": "~/project"
                 }
             ]
         }
