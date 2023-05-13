@@ -23,15 +23,15 @@ Write a script for addition of two numbers for real numbers also
 ## Sample Execution / Output:
 
 ```bash
-sorria@ubuntu:~/myrepo$ ./add2No.sh
-[INPUT]	Enter the value of Number1	[INPUT]
+labex:project/ $ bash add2No.sh 
+[INPUT] Enter the value of Number1      [INPUT] 
 12
-[INPUT]	Enter the value of Number2	[INPUT]
+[INPUT] Enter the value of Number2      [INPUT]
 13
-[INPUT]	Enter the method to be used in Addition operation	[INPUT]
-		1)method 1 uses expr command to add two numbers
-		2)method 2 uses bc (floating point is accepted) command to add two numbers
-		3)method 3 uses (( )) command to add two numbers
+[INPUT] Enter the method to be used in Addition operation       [INPUT] 
+                1)method 1 uses expr command to add two numbers
+                2)method 2 uses bc (floating point is accepted) command to add two numbers
+                3)method 3 uses (( )) command to add two numbers
 1
 
 
