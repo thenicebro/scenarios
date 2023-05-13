@@ -36,7 +36,6 @@ ExpectedOutput
 #------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-source exit.sh
 #prompt the user to enter the value of Number 1
 echo -e "[INPUT]\tEnter the value of Number1\t[INPUT] " #printf doesnt gives the newline space while its is available in echo
 #read and  store the value of num1
@@ -92,7 +91,6 @@ else
 	 echo "[ERROR]Use valid method to add two numbers[ERROR]"
 fi
 
-exit_program add2No.sh
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------End of the Program --------------------------------------------------------------------
