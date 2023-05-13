@@ -2,13 +2,13 @@
 
 cd ~/project
 
-bash dirList.sh ~/project/dir > output.txt
+bash dirList.sh ~/project ~/project/dir > ~/tmp/output.txt
 
-rs=$(cat output.txt | wc -l)
-if [ $rs -eq 3 ];then
-	rm output.txt
+rs=$(cat output.txt | egrep "*.sh" | wc -l)
+if [ $rs -eq 2 ];then
+	rm ~/tmp/output.txt
 	exit 0
 else
-	rm output.txt
+	rm ~/tmp/output.txt
 	exit 1
 fi

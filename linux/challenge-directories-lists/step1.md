@@ -21,3 +21,21 @@ Write a script that takes any number of directories as command-line arguments an
 - If no arguments passed, list current directory
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash dirList.sh ~/project ~/project/dir
+
+
+[OUTPUT] CONTENT OF THE DIRECTORY [OUTPUT]
+project
+dir
+dirList.sh
+
+
+[OUTPUT] CONTENT OF THE DIRECTORY [OUTPUT]
+dir
+a.txt
+b.sh
+c.bat
+```
+
