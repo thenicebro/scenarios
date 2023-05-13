@@ -2,7 +2,7 @@
 
 cd ~/project
 
-bash mount.sh > /tmp/output.txt
+bash mount.sh /dev/vda3 > /tmp/output.txt
 
 cat /tmp/output.txt | grep "used"
 rs=$?

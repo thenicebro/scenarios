@@ -20,3 +20,9 @@ Write a script to determine whether a given file system or mount point is mounte
 - Otherwise, print an error message.
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash mount.sh /dev/vda3
+ Filesystem /dev/vda3 is 46% used with 21367676 KB free.
+```
+
