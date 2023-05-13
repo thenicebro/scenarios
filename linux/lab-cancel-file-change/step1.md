@@ -1,4 +1,4 @@
-# Undo the changes you made
+# Undo the Changes You Made
 
 The git restore command is used to discard changes in your working directory. This can be useful if you have made changes to a file that you no longer want to keep.
 

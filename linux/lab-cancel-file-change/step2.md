@@ -1,4 +1,4 @@
-# Remove a file from the repository
+# Remove a File From the Repository
 
 The git rm command is used to remove a file from your Git repository. This can be useful if you have added a file to your repository that you no longer want to keep.
 

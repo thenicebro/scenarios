@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Using the Git Restore Command",
+        "title": "Undo the Changes You Made",
         "text": "step1.md",
         "verify": [
           {
@@ -21,7 +21,7 @@
         "skills": ["git/restore", "git/add", "git/status"]
       },
       {
-        "title": "Using the Git Rm Command",
+        "title": "Remove a File From the Repository",
         "text": "step2.md",
         "verify": [
           {
@@ -35,7 +35,7 @@
         "skills": ["git/rm", "git/add", "git/status"]
       },
       {
-        "title": "Using the Git Reset Command",
+        "title": "Undo and Reset",
         "text": "step3.md",
         "verify": [
           {
