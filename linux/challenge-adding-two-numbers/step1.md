@@ -6,6 +6,8 @@ Write a script for addition of two numbers for real numbers also
 
 - How to add real numbers in script.
 - How to use piping in commands.
+- Script name: `add2No.sh`.
+- Work directory: `~/project`.
 
 ## Objective:
 
