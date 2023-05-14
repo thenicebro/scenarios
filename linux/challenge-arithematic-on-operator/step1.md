@@ -14,7 +14,7 @@ Write a script to perform arithmetic operation on digits of a given number depen
 
 - To learn more string manipulation in scripts.
 
-**Requirements:**
+## Requirements:
 
 - Read a string from user, must end with a operator symbol.
 - Number can be any length but must end with an operator character.
@@ -22,3 +22,17 @@ Write a script to perform arithmetic operation on digits of a given number depen
 - If **8312 –** passed do **8-3-1-2 = 2**
 
 ### Sample Execution / Output:
+
+```bash
+labex:project/ $ bash arithematicOnOperator.sh 
+[INPUT]Enter the String[INPUT]
+125+
+[OUTPUT]Result after performing "+" is  "8"[OUTPUT]
+```
+
+```bash
+[INPUT]Enter the String[INPUT]
+1235
+[ERROR]Invalid Operant [ERROR]
+```
+
