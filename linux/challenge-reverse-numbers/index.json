@@ -7,7 +7,7 @@
     "details": {
         "steps": [
             {
-                "title": "Reverse Numbers"
+                "title": "Reverse Numbers",
                 "text": "step1.md",
                 "verify": [
                     {
