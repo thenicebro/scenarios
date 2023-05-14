@@ -21,3 +21,15 @@ Write a script for generating random 8-character passwords including alpha numer
 - Password must contain alpha-numeric and special characters.
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash randPasswd.sh 
+[INPUT] Enter the Number of Password to Generate [INPUT]
+4
+[OUTPUT] Random Generated Password is [OUTPUT]
+UY)UsN0l
+)4S1gtEK
+BSQCp7pO
+{&9VQoKX
+```
+
