@@ -23,5 +23,5 @@ Print colors using `echo` command.
 
 ## Sample Execution / Output:
 
-![1-1](.\assets\1-1.PNG)    
+![1-1](assets/1-1.PNG)    
 
