@@ -1,4 +1,4 @@
-# The Real Calculator
+# the Real Calculator
 
 Write a script for arithmetic calculator using command line arguments.
 
