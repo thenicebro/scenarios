@@ -18,11 +18,15 @@ Write a script that prints greetings based on the current time.
 ## Requirements
 
 - The script should run as soon as you log-on to system.
-- Print greetings based on time as follows:
-  - "Good morning" (5 AM – 12 PM)
-  - "Good noon" (12 PM – 1 PM)
-  - "Good afternoon" (2 PM – 5 PM)
-  - "Good evening" (5PM – 9 PM)
-  - "Good night" (9 PM – 5 AM)
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash sayHello.sh
+                           labex,Have a nice day!!
+                        This is Sunday 14 in May (10:48:37) 
+
+
+
+```
+
