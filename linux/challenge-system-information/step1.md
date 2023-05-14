@@ -34,3 +34,37 @@ Write a script to print the following system information:
 - Using switch case, display output for the selected option.
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash sysInfo.sh 
+[INPUT]Select the Option below to Display the Information[INPUT]
+
+                                1)Currently Logged User
+
+                                2)Shell Directory
+
+                                3)Home Directory
+
+                                4)OS name And OS version
+
+                                5)Current Working Directory
+
+                                6)Number Of users Logged-in
+
+                                7)Available Shells in System
+
+                                8)Hard disk Information
+
+                                9)CPU Information
+
+                                10)Memory Information
+
+                                11)File-Systm Information
+
+                                12)Currently running process(uid)
+
+1
+        [OUTPUT]Currently Logged User[OUTPUT]
+        labex
+```
+
