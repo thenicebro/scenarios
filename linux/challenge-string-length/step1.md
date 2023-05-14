@@ -18,3 +18,12 @@ Write a script to print the length of each and every string using arrays.
 - Number of argument may vary.
 
 ### Sample Execution / Output:
+
+```bash
+labex:project/ $ bash stringLength.sh qwe sd zxcv
+[OUTPUT] Sting length of given values [OUTPUT]
+Length of the String(qwe)=3
+Length of the String(sd)=2
+Length of the String(zxcv)=4
+```
+
