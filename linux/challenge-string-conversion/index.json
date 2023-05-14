@@ -41,6 +41,10 @@
                 },
 				{
                     "file": "input_file.txt",
+                    "target": "/tmp"
+                },
+				{
+                    "file": "input_file.txt",
                     "target": "/home/labex/project"
                 }
             ]
