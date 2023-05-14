@@ -29,3 +29,16 @@ Read ‘n’ and generate a pattern given below.
 * Create a pattern as mentioned above.
 
 ### Sample Execution / Output:
+
+```bash
+labex:project/ $ bash pattern1.sh 
+[INPUT]Enter the value of N[INPUT]
+5
+[OUTPUT]Expected Pattern is Shown Below[OUTPUT]
+1        
+1       2        
+1       2       3        
+1       2       3       4        
+1       2       3       4       5 
+```
+
