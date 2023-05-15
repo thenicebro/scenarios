@@ -18,9 +18,22 @@ Write a script for arithmetic calculator using command line arguments.
 
 ## Requirements:
 
-- .User must provide two numbers and operator through command-line
+- .User must provide two numbers and operator through command-line.
 - Based on input do the operation and show the output.
 - Use case to handle multiple operations.
 - Use `expr` or `bc` commands.
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ bash arithematic.sh 1 + 5
+[OUTPUT] Arithematic operation performed is " +" [OUTPUT]
+[OUTPUT] Therefore 1+5=6 [OUTPUT]
+```
+
+```bash
+labex:project/ $ bash arithematic.sh 12 x 2
+[OUTPUT] Arithematic operation performed is " x" [OUTPUT]
+[OUTPUT] Therefore 12x2=24 [OUTPUT]
+```
+
