@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-bash userId.sh | tail -n 1 | grep -q "4"
+bash ~/project/userId.sh | tail -n 1 | grep -q "2"
