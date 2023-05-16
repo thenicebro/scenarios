@@ -11,8 +11,8 @@ Write a script to delete empty lines from a file.
 
 ## Objective:
 
-- To learn `sed` command-line
-- To learn about regular-exp
+- To learn `sed` command-line.
+- To learn about regular-exp.
 
 ## Requirements:
 
@@ -20,3 +20,28 @@ Write a script to delete empty lines from a file.
 - Delete all the empty lines from that file and save it back.
 
 ## Sample Execution / Output:
+
+```bash
+labex:project/ $ cat file.txt 
+Hello this
+
+files
+
+contains so many
+
+
+empty liens
+
+which has to be removed
+
+by your script  
+labex:project/ $ bash delete.sh file.txt 
+labex:project/ $ cat file.txt 
+Hello this
+files
+contains so many
+empty liens
+which has to be removed
+by your script 
+```
+
