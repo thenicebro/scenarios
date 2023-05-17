@@ -149,6 +149,10 @@ class Sync:
                 lab_direction = "CSS"
             elif lab_direction == "Html":
                 lab_direction = "HTML"
+            elif lab_direction == "Mongodb":
+                lab_direction = "MongoDB"
+            elif lab_direction == "Cpp":
+                lab_direction = "C++"
         else:
             lab_direction = None
         lab_title = index.get("title", None)
