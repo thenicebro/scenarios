@@ -13,7 +13,7 @@
                     {
                         "name": "Check the Chrome driver",
                         "file": "verify0.sh",
-                        "hint": "Downloading Chrome driver now.If the download is unsuccessful, the user can copy and run the following command in a terminal.`cd /tmp && npm i puppeteer@20.1.2",
+                        "hint": "Downloading Chrome driver now.If the download is unsuccessful, you can copy and run the following command in a terminal: cd /tmp && npm i puppeteer@20.1.2",
                         "timeout": 0,
                         "showstderr": false
                     },
