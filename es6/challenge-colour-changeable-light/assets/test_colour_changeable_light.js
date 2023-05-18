@@ -57,8 +57,6 @@ try {
       (greenlightDisplay == "block" || greenlightDisplay == "inline-block")
     ) {
       console.log("Congratulations! you are passed.");
-
-
     } else {
       console.log("Sorry! you didn't pass the challenge.");
 
