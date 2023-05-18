@@ -2,7 +2,7 @@
 
 grep -q "^$" ~/project/file.txt
 rs=$?
-if [[ -z $rs ]];then
+if [[ $rs -eq 0 ]];then
 	exit 1
 else
 	exit 0
