@@ -22,7 +22,7 @@ Write a script to delete empty lines from a file.
 ## Sample Execution / Output:
 
 ```bash
-labex:project/ $ cat file.txt 
+labex:project/ $ cat file.txt
 Hello this
 
 files
@@ -34,14 +34,13 @@ empty liens
 
 which has to be removed
 
-by your script  
-labex:project/ $ bash delete.sh file.txt 
-labex:project/ $ cat file.txt 
+by your script
+labex:project/ $ bash delete.sh file.txt
+labex:project/ $ cat file.txt
 Hello this
 files
 contains so many
 empty liens
 which has to be removed
-by your script 
+by your script
 ```
-
