@@ -22,7 +22,7 @@
                     "linux/df"
                 ],
                 "solutions": [
-                    "step1-solution.md"
+                    "userSearch.sh"
                 ]
             }
         ],
@@ -37,7 +37,8 @@
             "host01": [
                 {
                     "file": "userSearch.sh",
-                    "target": "/tmp"
+                    "target": "~/project",
+                    "chmod": "777"
                 }
             ]
         }

@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #pushes all the user name into var
@@ -45,5 +42,6 @@ fi
 
 exit 0
 
-```
+
+
 
