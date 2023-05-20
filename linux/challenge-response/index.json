@@ -34,11 +34,12 @@
         {
           "file": "response.sh",
           "target": "~/project",
-          "chnmod": "777"
+          "chmod": "777"
         },
         {
           "file": "response_test.sh",
-          "target": "~/project"
+          "target": "~/project",
+		  "chmod": "777"
         }
       ]
     }

@@ -127,7 +127,7 @@
   [ "$output" = "Sure." ]
 }
 
-@test "silence" {
+@test "silence_1" {
   run bash ~/project/response.sh ''
 
   [ "$status" -eq 0 ]

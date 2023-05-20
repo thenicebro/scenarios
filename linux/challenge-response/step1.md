@@ -20,3 +20,13 @@ Write a script to complete the following challenge.
 - Work directory: `~/project`.
 
 ### Sample Execution / Output:
+
+```bash
+labex:project/ $ bash response.sh               
+Fine. Be that way!
+labex:project/ $ bash response.sh "who are you"
+Whatever.
+labex:project/ $ bash response.sh "who are you?"
+Sure.
+```
+
