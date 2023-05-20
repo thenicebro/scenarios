@@ -24,7 +24,7 @@ Write a script to perform arithmetic operation on digits of a given number depen
 ### Sample Execution / Output:
 
 ```bash
-labex:project/ $ bash arithematicOnOperator.sh 
+labex:project/ $ bash arithematicOnOperator.sh
 [INPUT]Enter the String[INPUT]
 125+
 [OUTPUT]Result after performing "+" is  "8"[OUTPUT]
@@ -35,4 +35,3 @@ labex:project/ $ bash arithematicOnOperator.sh
 1235
 [ERROR]Invalid Operant [ERROR]
 ```
-

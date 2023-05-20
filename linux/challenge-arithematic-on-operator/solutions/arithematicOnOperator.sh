@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 echo "[INPUT]Enter the String[INPUT]"
@@ -67,5 +64,7 @@ case "$operant" in
 	  *)	echo "[ERROR]Invalid Operant [ERROR]"
 esac
 
-```
+
+
+
 
