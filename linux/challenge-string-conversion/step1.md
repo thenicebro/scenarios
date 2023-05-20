@@ -20,7 +20,7 @@ Command output translation.
 ## Sample Execution / Output:
 
 ```bash
-labex:project/ $ bash stringConv.sh input_file.txt 
+labex:project/ $ bash stringConv.sh input_file.txt
 
 [INPUT] Please Select an option [INPUT]
         1.TO_UPPER_CASE
@@ -44,4 +44,3 @@ this program takes an input_file as an input
 and converts the string into upper_case
 and lower_case
 ```
-

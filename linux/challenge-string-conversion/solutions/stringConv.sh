@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #validates the user to pass an arguments
@@ -15,11 +12,13 @@ then
 case $userOption in
 
 
-1)	cat $1|tr [:lower:] [:upper:] > new.txt && mv new.txt $1 
+1)	cat $1|tr [:lower:] [:upper:] > new.txt 
+	sudo mv new.txt $1 
 	echo -e "\e[42m[OUTPUT]\e[0m content of Input File AFTER OPERATION \e[42m[OUTPUT]\e[0m\n`cat $1`"
 	exit 0 ;;
 
-2)	cat $1|tr [:upper:] [:lower:] > new.txt && mv new.txt $1 
+2)	cat $1|tr [:upper:] [:lower:] > new.txt 
+	sudo mv new.txt $1 
 	echo -e "\e[42m[OUTPUT]\e[0m content of Input File AFTER OPERATION \e[42m[OUTPUT]\e[0m\n`cat $1`"
 	exit 0 ;;
 esac
@@ -29,5 +28,6 @@ else
 	exit 0
 fi
 
-```
+
+
 
