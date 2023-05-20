@@ -33,7 +33,8 @@
       "host01": [
         {
           "file": "response.sh",
-          "target": "~/project"
+          "target": "~/project",
+          "chnmod": "777"
         },
         {
           "file": "test.sh",
