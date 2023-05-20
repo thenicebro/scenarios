@@ -3,7 +3,7 @@
   "title": "String Length",
   "description": "Write a script to print the length of each and every string using arrays.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
