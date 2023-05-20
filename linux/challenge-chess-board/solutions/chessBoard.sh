@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 echo -e "\e[44m[Input]\e[0mEnter the value\e[44m[Input]\e[0m"
@@ -28,5 +25,7 @@ echo
 done
 
 echo -n -e "\033[0m"
-```
+
+
+
 
