@@ -3,7 +3,7 @@
   "title": "Random Passwords",
   "description": "Write a script for generating random 8-character passwords including alpha numeric characters.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
