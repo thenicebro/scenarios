@@ -20,7 +20,7 @@ Read `n` and generate Fibonacci numbers less than or equal to n.
 ## Sample Execution / Output:
 
 ```bash
-labex:project/ $ bash fibonacci.sh 
+labex:project/ $ bash fibonacci.sh
 [INPUT]Enter the value of N[INPUT]
 15
 [OUTPUT]Fibonacci Series of Given Number 15 is [OUTPUT]
@@ -29,4 +29,3 @@ labex:project/ $ bash fibonacci.sh
 
 largest of given fibonacci series is:13
 ```
-

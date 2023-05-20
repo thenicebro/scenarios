@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #read the number from the user and perform Fibonacci series operation
@@ -37,5 +34,6 @@ else
 	echo "[Error]Invalid Input[Error]"
 fi
 
-```
+
+
 
