@@ -2,8 +2,8 @@
   "type": "challenge",
   "title": "Compare Integers",
   "description": "Write a script to compare larger integer values from a `n` number of arguments using command line arguments.",
-  "difficulty": "Beginner",
-  "time": 5,
+  "difficulty": "Intermediate",
+  "time": 15,
   "details": {
     "steps": [
       {
