@@ -2,8 +2,8 @@
   "type": "challenge",
   "title": "Arithematic on Operator",
   "description": "Write a script to perform arithmetic operation on digits of a given number depending upon the operator.",
-  "difficulty": "Beginner",
-  "time": 5,
+  "difficulty": "Intermediate",
+  "time": 25,
   "details": {
     "steps": [
       {
