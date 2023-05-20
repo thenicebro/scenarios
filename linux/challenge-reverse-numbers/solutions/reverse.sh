@@ -1,7 +1,6 @@
-# Solution
-
-```bash
 #!/bin/bash
+
+
 
 #prompt the user to get the value and store it in the variable inputNumber
 
@@ -34,6 +33,4 @@ else
 	echo -e "\t\t\t**********\t\tplease give a valid input to perform an operation\t\t**********\t\t\t"
 
 fi
-
-```
 

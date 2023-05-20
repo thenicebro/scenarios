@@ -25,9 +25,8 @@ Write a script to print a given number in reverse order.
 ## Sample Execution / Output:
 
 ```bash
-labex:project/ $ bash reverse.sh 
+labex:project/ $ bash reverse.sh
 **********Enter the value that is need to be reversed**********
 12472
 [OUTPUT]Reversed value of 12472 is : 27421[OUTPUT]
 ```
-
