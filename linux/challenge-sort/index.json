@@ -3,7 +3,7 @@
   "title": "Sort",
   "description": "Write a script to sort a given number in ascending or descending order.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
