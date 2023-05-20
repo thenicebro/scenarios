@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #captures all the username from the system in an array nameArray
@@ -28,5 +25,5 @@ echo -e "\n\n\e[42m[OUTPUT]\e[0m Largest and Shortest UserName \e[42m[OUTPUT]\e[
 echo "Largest Username is ${nameArray[$countOfArray-1]}"
 echo "Smallest Username is ${nameArray[0]}"
 
-```
+
 
