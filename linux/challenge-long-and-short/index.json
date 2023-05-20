@@ -3,7 +3,7 @@
   "title": "Long and Short",
   "description": "Display the longest and shortest user-names on the system.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
