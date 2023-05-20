@@ -3,7 +3,7 @@
   "title": "Feedback",
   "description": "Use pipes or redirection to create an infinite feedback loop.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
