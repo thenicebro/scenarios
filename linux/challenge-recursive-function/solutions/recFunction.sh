@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 function display()
@@ -37,5 +34,7 @@ else
 	echo -e "\e[41m[ERROR]\e[0m Please pass an argument to perform the operation \e[41m[ERROR]\e[0m"	
 fi
 
-```
+
+
+
 
