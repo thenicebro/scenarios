@@ -27,7 +27,7 @@ labex:project/ $ bash sort.sh 1 5 4 3 6
 inputcount : 5
 content of inputValue 1 5 4 3 6
 [Input] Enter your choice [Input]
-1.Ascending 
+1.Ascending
 2.Descending
 1
 [OUTPUT] Ascending Order [OUTPUT]
@@ -39,10 +39,9 @@ labex:project/ $ bash sort.sh 1 5 4 3 6
 inputcount : 5
 content of inputValue 1 5 4 3 6
 [Input] Enter your choice [Input]
-1.Ascending 
+1.Ascending
 2.Descending
 2
 [OUTPUT] Descending Order [OUTPUT]
 6 5 4 3 1
 ```
-

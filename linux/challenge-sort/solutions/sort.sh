@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #validates the arguments
@@ -58,5 +55,5 @@ else
 fi
 
 
-```
+
 
