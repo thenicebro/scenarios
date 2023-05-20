@@ -3,7 +3,7 @@
   "title": "User Id",
   "description": "Count the number of users with user IDs between 500 and 10000 on the system.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
