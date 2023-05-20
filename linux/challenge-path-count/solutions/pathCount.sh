@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #path from the $PATH is Seperated using tr-command
@@ -23,6 +20,3 @@ done
 
 
 #echo  $PATH | sed 's/[^:]//g'| tr -d '\012' | wc -c
-
-```
-

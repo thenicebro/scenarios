@@ -3,6 +3,7 @@
 The objective of this script is to display the number of executable files in each directory listed in the `$PATH` environmental variable.
 
 ## Prerequisites:
+
 - Must know bash environmental variables.
 - Working of `tr` command.
 - Loops and arrays.
@@ -11,6 +12,7 @@ The objective of this script is to display the number of executable files in eac
 - Work directory: `~/project`.
 
 ## Objective:
+
 - Learn significance of `PATH` variable.
 
 ## Requirements:
@@ -25,7 +27,7 @@ The objective of this script is to display the number of executable files in eac
 ### Sample Execution / Output:
 
 ```bash
-labex:project/ $ bash pathCount.sh 
+labex:project/ $ bash pathCount.sh
 
 
 current directory: /usr/lib/jvm/java-11-openjdk-amd64/bin
@@ -130,4 +132,3 @@ current count:6
 
 [OUTPUT] Total-Count:[2135] [OUTPUT]
 ```
-
