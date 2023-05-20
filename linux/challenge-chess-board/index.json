@@ -2,8 +2,8 @@
   "type": "challenge",
   "title": "Chess Board",
   "description": "Write a script to print a chessboard.",
-  "difficulty": "Beginner",
-  "time": 5,
+  "difficulty": "Intermediate",
+  "time": 15,
   "details": {
     "steps": [
       {
