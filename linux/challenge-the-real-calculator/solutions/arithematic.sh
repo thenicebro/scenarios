@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #below statement validates the count of the argument
@@ -40,5 +37,3 @@ else
 fi
 
 exit 0
-```
-
