@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 
@@ -40,7 +37,4 @@ fi
 
 
 
-
-
-```
 
