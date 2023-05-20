@@ -36,7 +36,7 @@ Write a script to print the following system information:
 ## Sample Execution / Output:
 
 ```bash
-labex:project/ $ bash sysInfo.sh 
+labex:project/ $ bash sysInfo.sh
 [INPUT]Select the Option below to Display the Information[INPUT]
 
                                 1)Currently Logged User
@@ -67,4 +67,3 @@ labex:project/ $ bash sysInfo.sh
         [OUTPUT]Currently Logged User[OUTPUT]
         labex
 ```
-

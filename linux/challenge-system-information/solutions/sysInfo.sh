@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #prompts the user for the user-option
@@ -43,5 +40,6 @@ case "$userOption" in
 		exit 0;;
 esac
 
-```
+
+
 
