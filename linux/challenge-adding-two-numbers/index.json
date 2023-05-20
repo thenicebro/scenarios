@@ -2,8 +2,8 @@
   "type": "challenge",
   "title": "Adding Two Numbers",
   "description": "Write a script for addition of two numbers for real numbers also",
-  "difficulty": "Beginner",
-  "time": 5,
+  "difficulty": "Intermediate",
+  "time": 15,
   "details": {
     "steps": [
       {
