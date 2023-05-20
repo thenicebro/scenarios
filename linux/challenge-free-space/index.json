@@ -3,7 +3,7 @@
   "title": "Free Space",
   "description": "Read a `n` and display the names of any file-system which have less than `n%` free space available.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 10,
   "details": {
     "steps": [
       {
