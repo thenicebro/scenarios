@@ -1,0 +1,48 @@
+{
+    "type": "challenge",
+    "title": "Response",
+    "description": "123",
+    "difficulty": "Beginner",
+    "time": 15,
+    "details": {
+        "steps": [
+            {
+                "title": "123",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "123",
+                        "file": "verify1.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "linux/echo"
+                ],
+                "solutions": [
+                    "bob.sh"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "bob.sh",
+                    "target": "/tmp"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "webide-ubuntu:2204"
+    }
+}
