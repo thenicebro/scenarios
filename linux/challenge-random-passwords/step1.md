@@ -6,7 +6,7 @@ Write a script for generating random 8-character passwords including alpha numer
 
 - Knowledge about `rand`, `tr` and `cut` commands.
 - Use of `/dev/urandom` file.
-- Piping
+- Piping.
 - Script name: `randPasswd.sh`.
 - Work directory: `~/project`.
 
@@ -23,7 +23,7 @@ Write a script for generating random 8-character passwords including alpha numer
 ## Sample Execution / Output:
 
 ```bash
-labex:project/ $ bash randPasswd.sh 
+labex:project/ $ bash randPasswd.sh
 [INPUT] Enter the Number of Password to Generate [INPUT]
 4
 [OUTPUT] Random Generated Password is [OUTPUT]
@@ -32,4 +32,3 @@ UY)UsN0l
 BSQCp7pO
 {&9VQoKX
 ```
-
