@@ -15,7 +15,7 @@
             "file": "verify1.sh",
             "hint": "There are some tests that don't pass, you can run test.sh to see which tests don't pass",
             "timeout": 0,
-            "showstderr": true
+            "showstderr": false
           }
         ],
         "skills": ["linux/echo"],
