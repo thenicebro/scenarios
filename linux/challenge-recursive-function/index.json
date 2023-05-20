@@ -3,7 +3,7 @@
   "title": "Recursive Function",
   "description": "Use a recursive function to print each argument passed to the function.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
