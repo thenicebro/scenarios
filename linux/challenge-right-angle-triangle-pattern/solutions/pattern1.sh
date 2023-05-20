@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #prompt the user to enter the value of N and store it in the variable
@@ -21,5 +18,4 @@ then
 else
 	echo "[ERROR]Invalid Input[ERROR]"
 fi
-```
 
