@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #gets the value of fileSystem and the useage from df command
@@ -33,5 +30,6 @@ then
 echo "No file System has usage of $((100-$inputUsage))% of freeSpace"
 fi
 
-```
+
+
 
