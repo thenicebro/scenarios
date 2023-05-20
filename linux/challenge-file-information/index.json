@@ -3,7 +3,7 @@
   "title": "File Information",
   "description": "Write a script for printing all file related information in present working directory.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 10,
   "details": {
     "steps": [
       {
