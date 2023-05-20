@@ -3,7 +3,7 @@
   "title": "the Real Calculator",
   "description": "Write a script for arithmetic calculator using command line arguments.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 25,
   "details": {
     "steps": [
       {
