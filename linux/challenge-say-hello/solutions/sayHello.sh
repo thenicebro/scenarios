@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 hour=(`date +%H`)
@@ -33,5 +30,6 @@ echo -e  "\t\t\t $greeting  `whoami`,Have a nice day!!"
 echo -e  "\t\t\tThis is $day $date in $month ($time) "
 echo -e "\n\n\n "
 
-```
+
+
 

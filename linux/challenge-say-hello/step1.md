@@ -12,7 +12,7 @@ Write a script that prints greetings based on the current time.
 
 ## Objective
 
-- Using time in script
+- Using time in script.
 - Understanding bash configuration files.
 
 ## Requirements
@@ -24,9 +24,8 @@ Write a script that prints greetings based on the current time.
 ```bash
 labex:project/ $ bash sayHello.sh
                            labex,Have a nice day!!
-                        This is Sunday 14 in May (10:48:37) 
+                        This is Sunday 14 in May (10:48:37)
 
 
 
 ```
-
