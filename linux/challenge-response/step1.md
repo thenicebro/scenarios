@@ -16,7 +16,7 @@ Write a script to complete the following challenge.
 ## Prerequisites:
 
 - Script name: `response.sh`.
-- test script name: `test.sh`.
+- test script name: `response_test.sh`.
 - Work directory: `~/project`.
 
 ### Sample Execution / Output:

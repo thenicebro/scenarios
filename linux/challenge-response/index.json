@@ -37,7 +37,7 @@
           "chnmod": "777"
         },
         {
-          "file": "test.sh",
+          "file": "response_test.sh",
           "target": "~/project"
         }
       ]
