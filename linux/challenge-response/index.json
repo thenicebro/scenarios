@@ -1,48 +1,48 @@
 {
-    "type": "challenge",
-    "title": "Response",
-    "description": "123",
-    "difficulty": "Beginner",
-    "time": 15,
-    "details": {
-        "steps": [
-            {
-                "title": "123",
-                "text": "step1.md",
-                "verify": [
-                    {
-                        "name": "123",
-                        "file": "verify1.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
-                        "timeout": 0,
-                        "showstderr": true
-                    }
-                ],
-                "skills": [
-                    "linux/echo"
-                ],
-                "solutions": [
-                    "bob.sh"
-                ]
-            }
+  "type": "challenge",
+  "title": "Response",
+  "description": "Write a script to complete the following challenge.",
+  "difficulty": "Beginner",
+  "time": 15,
+  "details": {
+    "steps": [
+      {
+        "title": "Response",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Checking the feasibility of solutions offered by users",
+            "file": "verify1.sh",
+            "hint": "There are some tests that don't pass, you can run test.sh to see which tests don't pass",
+            "timeout": 0,
+            "showstderr": true
+          }
         ],
-        "intro": {
-            "text": "intro.md",
-            "background": "setup.sh"
-        },
-        "finish": {
-            "text": "finish.md"
-        },
-        "assets": {
-            "host01": [
-                {
-                    "file": "bob.sh",
-                    "target": "/tmp"
-                }
-            ]
-        }
+        "skills": ["linux/echo"],
+        "solutions": ["response.sh"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
     },
-    "backend": {
-        "imageid": "webide-ubuntu:2204"
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "response.sh",
+          "target": "~/project"
+        },
+        {
+          "file": "test.sh",
+          "target": "~/project"
+        }
+      ]
     }
+  },
+  "backend": {
+    "imageid": "webide-ubuntu:2204"
+  }
 }
