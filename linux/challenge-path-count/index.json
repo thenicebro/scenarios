@@ -3,7 +3,7 @@
   "title": "Path Count",
   "description": "The objective of this script is to display the number of executable files in each directory listed in the `$PATH` environmental variable.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
