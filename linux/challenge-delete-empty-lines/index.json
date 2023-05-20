@@ -3,7 +3,7 @@
   "title": "Delete Empty Lines",
   "description": "Write a script to delete empty lines from a file.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
