@@ -3,7 +3,7 @@
   "title": "String Conversion",
   "description": "Write script to convert string lower to upper and upper to lower.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
