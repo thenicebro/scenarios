@@ -3,7 +3,7 @@
   "title": "Fibonacci",
   "description": "Read n and generate Fibonacci numbers less than or equal to n.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
