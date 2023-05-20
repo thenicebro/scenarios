@@ -3,7 +3,7 @@
   "title": "Say Hello",
   "description": "Write a script that prints greetings based on the current time.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
