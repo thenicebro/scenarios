@@ -39,7 +39,7 @@
         {
           "file": "response_test.sh",
           "target": "~/project",
-		  "chmod": "777"
+		  "chmod": "+x"
         }
       ]
     }
