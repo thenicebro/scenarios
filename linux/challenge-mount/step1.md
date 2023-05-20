@@ -4,7 +4,7 @@ Write a script to determine whether a given file system or mount point is mounte
 
 ## Prerequisites:
 
-- Must know commands `df`, `tr`, and `cut`
+- Must know commands `df`, `tr`, and `cut`.
 - Use of arrays and loops.
 - Script name: `mount.sh`.
 - Work directory: `~/project`.
@@ -25,4 +25,3 @@ Write a script to determine whether a given file system or mount point is mounte
 labex:project/ $ bash mount.sh /dev/vda3
  Filesystem /dev/vda3 is 46% used with 21367676 KB free.
 ```
-

@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 
@@ -38,6 +35,3 @@ else
 	exit 0
 
 fi
-
-```
-
