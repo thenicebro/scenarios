@@ -34,6 +34,11 @@
         {
           "file": "file.txt",
           "target": "/home/labex/project"
+        },
+        {
+          "file": "delete.sh",
+          "target": "/home/labex/project",
+          "chmod": "777"
         }
       ]
     }
