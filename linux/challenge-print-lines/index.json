@@ -3,7 +3,7 @@
   "title": "Print Lines",
   "description": "Write script to print contents of file from given line number to next given number of lines.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
