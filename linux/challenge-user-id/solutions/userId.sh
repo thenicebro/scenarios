@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 arrayName=(`cat /etc/passwd | cut -d ':' -f 1`)
@@ -41,5 +38,6 @@ else
 	exit 0
 fi
 
-```
+
+
 
