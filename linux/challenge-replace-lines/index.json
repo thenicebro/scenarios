@@ -1,52 +1,49 @@
 {
-    "type": "challenge",
-    "title": "Replace Lines",
-    "description": "Write a script to replace 20% lines in a C file randomly and replace it with the pattern.",
-    "difficulty": "Intermediate",
-    "time": 5,
-    "details": {
-        "steps": [
-            {
-                "title": "Replace Lines",
-                "text": "step1.md",
-                "verify": [
-                    {
-                        "name": "Checking the feasibility of solutions offered by users",
-                        "file": "verify1.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
-                        "timeout": 0,
-                        "showstderr": true
-                    }
-                ],
-                "skills": [
-                    "linux/echo"
-                ],
-                "solutions": [
-                    "step1-solution.md"
-                ]
-            }
+  "type": "challenge",
+  "title": "Replace Lines",
+  "description": "Write a script to replace 20% lines in a C file randomly and replace it with the pattern.",
+  "difficulty": "Intermediate",
+  "time": 5,
+  "details": {
+    "steps": [
+      {
+        "title": "Replace Lines",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Checking the feasibility of solutions offered by users",
+            "file": "verify1.sh",
+            "hint": "Please replace this text with the hint of the verify script",
+            "timeout": 0,
+            "showstderr": true
+          }
         ],
-        "intro": {
-            "text": "intro.md",
-            "background": "setup.sh"
-        },
-        "finish": {
-            "text": "finish.md"
-        },
-        "assets": {
-            "host01": [
-                {
-                    "file": "replaceLines.sh",
-                    "target": "/tmp"
-                },
-				{
-                    "file": "main.c",
-                    "target": "/home/labex/project"
-                }
-            ]
-        }
+        "skills": ["linux/echo"],
+        "solutions": ["replaceLines.sh"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
     },
-    "backend": {
-        "imageid": "webide-ubuntu:2204"
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "replaceLines.sh",
+          "target": "~/project",
+          "chmod": "777"
+        },
+        {
+          "file": "main.c",
+          "target": "/home/labex/project"
+        }
+      ]
     }
+  },
+  "backend": {
+    "imageid": "webide-ubuntu:2204"
+  }
 }

@@ -30,7 +30,7 @@ labex:project/ $ bash replaceLines.sh main.c
 ```
 
 ```bash
-labex:project/ $ cat main.c 
+labex:project/ $ cat main.c
 #incude <stdio.h>
 int main()
 {
@@ -44,4 +44,3 @@ int main()
         #...
 }
 ```
-

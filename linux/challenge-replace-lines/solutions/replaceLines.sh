@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 if [ $# -eq 1 ]
@@ -23,10 +20,9 @@ then
 	do
 		sed  -i   "${lineCountToReplace[i]}s/.*/<---------------------------------------- DEL -------------------------------------------->/" $1
 	done
+
 	exit 0
 else
 	echo -e "\n\n\e[41m[ERROR]\e[0m PASS AN FILE TO PERFORM AN OPERATION \e[41m[ERROR]\e[0m\n\n"
 	exit 0
 fi
-```
-
