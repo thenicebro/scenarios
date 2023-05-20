@@ -1,6 +1,3 @@
-# Solution
-
-```bash
 #!/bin/bash
 
 #validates the command-line argument, if directory name is not passed the print content of working directory 
@@ -24,5 +21,6 @@ else
 
 fi
 
-```
+
+
 

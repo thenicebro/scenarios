@@ -18,7 +18,7 @@ Write a script that takes any number of directories as command-line arguments an
 - This script will work like a `ls` command.
 - Don’t use `ls` command.
 - Pass any number of directories through command-line.
-- If no arguments passed, list current directory
+- If no arguments passed, list current directory.
 
 ## Sample Execution / Output:
 
@@ -38,4 +38,3 @@ a.txt
 b.sh
 c.bat
 ```
-
