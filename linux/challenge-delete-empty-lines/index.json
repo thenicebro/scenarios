@@ -19,7 +19,7 @@
           }
         ],
         "skills": ["linux/sed"],
-        "solutions": ["delele.sh"]
+        "solutions": ["delete.sh"]
       }
     ],
     "intro": {
