@@ -1,6 +1,6 @@
 {
   "type": "challenge",
-  "title": "the Real Calculator",
+  "title": "Real Calculator",
   "description": "Write a script for arithmetic calculator using command line arguments.",
   "difficulty": "Intermediate",
   "time": 25,
