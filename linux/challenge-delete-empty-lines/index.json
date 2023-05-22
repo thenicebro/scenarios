@@ -41,7 +41,7 @@
           "chmod": "777"
         },
         {
-          "file": "file1.txt",
+          "file": "file.txt",
           "target": "~"
         }
       ]
