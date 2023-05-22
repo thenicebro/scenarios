@@ -42,7 +42,7 @@
         },
         {
           "file": "file1.txt",
-          "target": "~",
+          "target": "~"
         }
       ]
     }
