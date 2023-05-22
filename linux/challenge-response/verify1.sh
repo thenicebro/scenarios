@@ -1,3 +1,3 @@
 #!/usr/bin/zsh
 
-bats /tmp/response_test.sh
+bats -F junit /tmp/response_test.sh
