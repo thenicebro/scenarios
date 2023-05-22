@@ -38,8 +38,7 @@
         },
         {
           "file": "response_test.sh",
-          "target": "~/project",
-		  "chmod": "+x"
+          "target": "/tmp"
         }
       ]
     }
