@@ -2,24 +2,24 @@
 
 Write a script to delete empty lines from a file.
 
-## Prerequisites:
+## Prerequisites
 
 - Knowledge about `sed`.
 - Knowledge about regular-exp.
 - Script name: `delele.sh`.
 - Work directory: `~/project`.
 
-## Objective:
+## Objective
 
 - To learn `sed` command-line.
 - To learn about regular-exp.
 
-## Requirements:
+## Requirements
 
 - Pass a filename through command-line.
 - Delete all the empty lines from that file and save it back.
 
-## Sample Execution / Output:
+## Sample Execution / Output
 
 ```bash
 labex:project/ $ cat file.txt
