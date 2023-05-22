@@ -2,7 +2,7 @@
 
 Write a script for arithmetic calculator using command line arguments.
 
-## Prerequisites:
+## Prerequisites
 
 - How to use command-line arguments in script.
 - How to do arithmetic operations in script.
@@ -10,20 +10,20 @@ Write a script for arithmetic calculator using command line arguments.
 - Script name: `arithematic.sh`.
 - Work directory: `~/project`.
 
-## Objective:
+## Objective
 
 - To understand working of command-line arguments.
 - To understand working of piping.
 - To learn arithmetic operations in shell script.
 
-## Requirements:
+## Requirements
 
 - .User must provide two numbers and operator through command-line.
 - Based on input do the operation and show the output.
 - Use case to handle multiple operations.
 - Use `expr` or `bc` commands.
 
-## Sample Execution / Output:
+## Sample Execution / Output
 
 ```bash
 labex:project/ $ bash arithematic.sh 1 + 5
