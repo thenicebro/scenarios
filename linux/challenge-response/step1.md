@@ -2,7 +2,7 @@
 
 Write a script to complete the following challenge.
 
-## Instructions:
+## Instructions
 
 - Tom answers 'Sure.' if you ask him a question. The convention used for questions is that it ends with a question mark.
 
@@ -13,13 +13,13 @@ Write a script to complete the following challenge.
 
 - He answers 'Whatever.' to anything else.
 
-## Prerequisites:
+## Prerequisites
 
 - Script name: `response.sh`.
 - test script name: `response_test.sh`.
 - Work directory: `~/project`.
 
-### Sample Execution / Output:
+### Sample Execution / Output
 
 ```bash
 labex:project/ $ bash response.sh               
