@@ -33,7 +33,7 @@
       "host01": [
         {
           "file": "stringLength.sh",
-          "target": "/tmp",
+          "target": "~/project",
           "chmod": "777"
         }
       ]
