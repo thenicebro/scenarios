@@ -2,7 +2,7 @@
 
 Write a script to replace 20% lines in a C file randomly and replace it with the pattern.
 
-## Prerequisites:
+## Prerequisites
 
 - Knowledge about `sed` command.
 - How to create random numbers.
@@ -10,17 +10,17 @@ Write a script to replace 20% lines in a C file randomly and replace it with the
 - Script name: `replaceLines.sh`.
 - Work directory: `~/project`.
 
-## Objective:
+## Objective
 
 - Learn more about `sed` command.
 
-## Requirements:
+## Requirements
 
 - Provide a `.c` file to this script through the command-line.
 - Randomly delete 20% of the lines from the file.
 - Wherever you delete a line, replace it with a string `<-- DEL -->`.
 
-## Sample Execution / Output:
+## Sample Execution / Output
 
 ```bash
 labex:project/ $ bash replaceLines.sh main.c
