@@ -3,7 +3,7 @@
   "title": "Replace Lines",
   "description": "Write a script to replace 20% lines in a C file randomly and replace it with the pattern.",
   "difficulty": "Intermediate",
-  "time": 5,
+  "time": 15,
   "details": {
     "steps": [
       {
