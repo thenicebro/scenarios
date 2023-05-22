@@ -42,8 +42,7 @@
         },
         {
           "file": "file1.txt",
-          "target": "/tmp",
-		  "chmod": "777"
+          "target": "~",
         }
       ]
     }
