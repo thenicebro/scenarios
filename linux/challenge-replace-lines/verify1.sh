@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-bash ~/project/replaceLines.sh ~/project/main.c
+bash ~/project/replaceLines.sh ~/main1.c
 
-rs=$(cat ~/project/main.c | grep -i "DEL" | wc -l)
+rs=$(cat ~/main1.c | grep -i "DEL" | wc -l)
 if [[ $rs -eq 2 ]];then
 	exit 0
 else

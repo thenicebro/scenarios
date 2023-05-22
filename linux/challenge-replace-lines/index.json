@@ -39,7 +39,11 @@
         {
           "file": "main.c",
           "target": "/home/labex/project"
-        }
+        },
+        {
+          "file": "main1.c",
+          "target": "~"
+        }		
       ]
     }
   },
