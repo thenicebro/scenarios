@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+bash ~/project/delete.sh ~/project/flie.txt
 grep -q "^$" ~/project/file.txt
 rs=$?
 if [[ $rs -eq 0 ]];then
