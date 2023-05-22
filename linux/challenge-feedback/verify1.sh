@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 cd ~/project
+bash feedback.sh
 if [ -e new.txt ];then
 
 	rs=$(cat new.txt | wc -l)
