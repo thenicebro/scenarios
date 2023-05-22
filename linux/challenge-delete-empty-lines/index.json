@@ -39,6 +39,10 @@
           "file": "delete.sh",
           "target": "/home/labex/project",
           "chmod": "777"
+        },
+        {
+          "file": "file1.txt",
+          "target": "/tmp"
         }
       ]
     }
